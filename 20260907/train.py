@@ -42,14 +42,17 @@ def train():
             init_loss = avg_loss
             # 保存词向量, 词向量文件保存的数据是：
             # 第一行： 词表大小   词向量维度
-            token_embedding = model.embedding.weight.T.detach().numpy()
-            vocab_size, embbedding_dim = token_embedding.shape
+            token_embedding = model.embedding.weight.T.detach().cpu().numpy()
+            vocab_size, embedding_dim = token_embedding.shape
             # 从第二行开始： token   词向量
             with open("word2vec.txt", "wt", encoding="utf-8") as f:
-                f.write(f"{vocab_size} \t {embbedding_dim}\n")
+                f.write(f"{vocab_size} \t {embedding_dim}\n")
                 # 留下来的作业
                 # f.write(f"{token_embedding}\n")
                 # f.write(f"{2}\t {1111111111111111111111111111111111}\n")
+                for index, token in enumerate(dataset.vocab):
+                    vector = " ".join(str(value) for value in token_embedding[index])
+                    f.write(f"{token} {vector}\n")
 
 
 

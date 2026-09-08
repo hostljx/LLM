@@ -80,6 +80,11 @@ class CBOWDataset(Dataset):
         self.index2word = {i: w for i, w in enumerate(self.vocab)}
 
     def create_context(self):
+        """构建上下文
+
+        Returns:
+            contexts, targets: 转tensor，用于onehot
+        """        
         contexts = []
         targets = []
         # 需要得到的是 分词后的列表
