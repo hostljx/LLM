@@ -27,6 +27,7 @@ events.out.*
 # 压缩文件
 *.zip
 *.tar
+sgns.weibo.word.bz2
 
 # Java 编译输出
 target/
