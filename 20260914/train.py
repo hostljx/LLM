@@ -67,7 +67,15 @@ def make_collate_fn():
 	return collate
 
 
-def train_one_epoch(encoder, decoder, loader, optimizer, criterion, device):
+def train_one_epoch(
+	encoder,
+	decoder,
+	loader,
+	optimizer,
+	criterion,
+	device,
+	teacher_forcing_ratio
+):
 	encoder.train()
 	decoder.train()
 	total_loss = 0.0
@@ -80,14 +88,33 @@ def train_one_epoch(encoder, decoder, loader, optimizer, criterion, device):
 		optimizer.zero_grad()
 		encoder_outputs, hidden = encoder(source, source_lengths)
 
-		decoder_input = target[:, :-1]
 		expected = target[:, 1:]
-		logits, _ = decoder(
-			decoder_input,
-			hidden,
-			encoder_outputs,
-			source_lengths
-		)
+		decoder_input = target[:, :1]
+		logits_steps = []
+
+		for step in range(expected.size(1)):
+			logits, hidden = decoder(
+				decoder_input,
+				hidden,
+				encoder_outputs,
+				source_lengths
+			)
+			step_logits = logits[:, -1:]
+			logits_steps.append(step_logits)
+
+			if step + 1 < expected.size(1):
+				predicted = step_logits.squeeze(1).argmax(dim=-1)
+				use_teacher = (
+					torch.rand(source.size(0), device=device)
+					< teacher_forcing_ratio
+				)
+				decoder_input = torch.where(
+					use_teacher,
+					expected[:, step],
+					predicted
+				).unsqueeze(1)
+
+		logits = torch.cat(logits_steps, dim=1)
 
 		loss = criterion(
 			logits.reshape(-1, logits.size(-1)),
@@ -190,7 +217,11 @@ def main():
 			train_loader,
 			optimizer,
 			criterion,
-			device
+			device,
+			teacher_forcing_ratio=max(
+				0.5,
+				1.0 - epoch / max(max_epochs - 1, 1)
+			)
 		)
 		val_loss = evaluate(
 			encoder,
