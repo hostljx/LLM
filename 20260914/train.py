@@ -220,7 +220,7 @@ def main():
 			device,
 			teacher_forcing_ratio=max(
 				0.5,
-				1.0 - epoch / max(max_epochs - 1, 1)
+				1.0 - (1.0 - 0.5) * (epoch / max(max_epochs - 1, 1))
 			)
 		)
 		val_loss = evaluate(
