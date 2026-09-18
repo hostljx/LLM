@@ -7,8 +7,8 @@ path = Path(__file__).resolve().parent
 
 
 class Config:
-    FILE_PATH = path / "data" / "cmn.txt"
-    DATA_PATH = path / "data"
+    FILE_PATH = path / "raw" / "cmn.txt"
+    DATA_PATH = path / "raw"
     # 划分训练集和验证集的比例
     TRAIN_VAL_RATE = 0.9
     SEED = 10
