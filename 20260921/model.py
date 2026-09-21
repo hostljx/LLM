@@ -5,6 +5,8 @@ seq2seq实现机器翻译：
 """
 import torch.nn as nn
 import random
+import torch
+from onnxruntime.quantization.operators import attention
 from torch.nn.utils.rnn import pack_padded_sequence, pad_packed_sequence
 from config import Config
 from utils import init_weights
@@ -54,6 +56,24 @@ class Encoder(nn.Module):
 
         return output, hn
 
+class Attention(nn.Module):
+    def forward(self, decoder_hidden_size, encoder_hidden_size):
+        # 使用解码器的隐藏状态和编码器的输出计算注意力权重
+        '''
+            decoder_hidden_size: (batch, hidden_size) 
+            encoder_hidden_size: (batch, seq_len, hidden_size)
+            转置encoder_hidden_size: (batch, hidden_size, seq_len)
+        '''
+        encoder_hidden_size_transposed = encoder_hidden_size.transpose(1, 2)
+        # 计算注意力分数
+        scores = decoder_hidden_size.bmm(encoder_hidden_size_transposed)  # (batch, seq_len)
+        # 计算注意力权重
+        w = torch.softmax(scores, dim=-1)  # (batch, seq_len)
+        # 加权求和
+        context_vector = w.bmm(encoder_hidden_size)  # (batch, hidden_size)
+        return context_vector
+
+
 
 class Decoder(nn.Module):
 
@@ -70,7 +90,13 @@ class Decoder(nn.Module):
         # 将循环神经网络的隐状态结果映射成词表的概率
         self.fc = nn.Linear(in_features=hidden_size, out_features=vocab_size)
 
-    def forward(self, input_token, hidden):
+        # 初始化注意力机制
+        self.attention = Attention()
+        # encoder_hidden_size的shape: (batch, seq_len, hidden_size * 2)
+        # 将encoder_hidden_size的shape从(batch, seq_len, hidden_size * 2)映射成(batch, seq_len, hidden_size)
+        self.encoder_projection = nn.Linear(hidden_size * 2, hidden_size)
+
+    def forward(self, input_token, hidden, encoder_output):
         # 单步解码
         # Decoder解码器需要接收： 当前时间步的输入（input_token）和Encoder输出的结果（hidden）
         # input_token的shape: (batch, )
@@ -81,8 +107,25 @@ class Decoder(nn.Module):
         # output的shape: (batch, 1, hidden_size)
         # hn的shape: (num_layers, batch, hidden_size)
         output, hn = self.gru(embed, hidden)
+
+        # 注意力机制
+        # hn的shape: (num_layers, batch, hidden_size)
+        # hn[-1]的shape: (batch, hidden_size)
+        # output(context)的shape: (batch, 1, hidden_size)
+        encoder_projection_output = self.encoder_projection(encoder_output)
+        context = self.attention(output, encoder_projection_output)
+        # cat
+        '''
+        hn的shape: (num_layers, batch, hidden_size)
+        hn[-1]的shape: (batch, hidden_size)
+        hn[-1].unsqueeze(1): (batch, 1, hideen_size)
+        context的shape: (batch, 1, hidden_size)
+        combine的shape: (batch, 1, hideen_size * 2)
+        '''
+        combine = torch.cat((context, hn[-1].unsqueeze(1)), dim=2)
+
         # 线性层
-        out = self.fc(output).squeeze(1)
+        out = self.fc(self.encoder_projection(combine).squeeze(1))
         return out, hn
 
 
@@ -150,21 +193,10 @@ def build_model(source_vocab_size, target_vocab_size, device):
 
 
 if __name__ == '__main__':
-    import torch
-
-    encoder = Encoder(5, 10, 20, 2)
-    source_tensors = torch.tensor([
-        [1, 3, 0, 0, 0],
-        [1, 1, 0, 0, 0],
-        [3, 1, 3, 3, 2]
-    ])
-    _, hn = encoder(source_tensors, [2, 2, 5])
-    # print(out.shape)
-    print(hn.shape)
-
-    decoder = Decoder(5, 10, 40, 2)
-    input_token = torch.tensor([2, 3, 4])
-    out01, hn01, out = decoder(input_token, hn)
-    print("==============>", out01.shape)
-    print("==============>", hn01.shape)
-    print("==============>", out.shape)
+    # decoder_output的shape: (batch, 1, hidden_size)
+    # encoder_output的shape: (batch, seq_len, hidden_size)
+    decoder_output = torch.rand((64, 1, 128))
+    encoder_output = torch.rand((64, 23, 128))
+    attention = Attention()
+    context = attention(decoder_output, encoder_output)
+    print(context.shape)
