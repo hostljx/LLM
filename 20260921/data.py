@@ -74,6 +74,9 @@ class Vocabulary:
         self.index2word = {}
         self.counter = Counter()
 
+    def __len__(self):
+        return len(self.vocab)
+
     def generate_vocal(self, pairs, text_index, tokenizer_fun):
         # pair: ("静静的，别动。", "Be still.")
         for pair in pairs:
@@ -173,10 +176,10 @@ def __make_collate_fn(pad_idx):
         # 按照当前批次中最长的句子长度进行填充
         # 获取bacth中最长句子的长度
         source_tensers, target_tensers = zip(*batch)
-        # src_length = [len(src) for src in source_tensers]
+        src_lengths = [len(src) for src in source_tensers]
         source_padded = pad_sequence(source_tensers, batch_first=True, padding_value=pad_idx)
         target_padded = pad_sequence(target_tensers, batch_first=True, padding_value=pad_idx)
-        return source_padded, target_padded
+        return source_padded, target_padded, src_lengths
     return collate_fn
 
 
@@ -224,9 +227,9 @@ def generate_dataloader():
 
 
 
-if __name__ == '__main__':
-    dataloader, _ = generate_dataloader()
-    for src, tgt in dataloader:
-        print(src)
-        break
+# if __name__ == '__main__':
+#     dataloader, _ = generate_dataloader()
+#     for src, tgt in dataloader:
+#         print(src)
+#         break
 

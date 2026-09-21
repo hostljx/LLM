@@ -47,6 +47,7 @@ class Encoder(nn.Module):
             # gru是双层双向的网络， 将第一层的正向和反向拼接； 第二层的正向和反向拼接
             # 可以直接取第二层的正向和反向拼接， 但是由于我们的Decoder也是2层， 所以Encoder获取第二层拼接后还需要做形状变换成2层
             output, hn = self.gru(pack_seq)
+            output, _ = pad_packed_sequence(output, batch_first=True)
             hn = torch.cat((hn[0::2], hn[1::2]), dim=2)  # shape：(num_layers, batch, hidden_size*2)
             # 将PAD填充回去
             # pad_packed_sequence()
@@ -103,7 +104,6 @@ class Decoder(nn.Module):
         # embed的shape: (batch, embedding_dim) --> (batch, 1, embedding_dim)
         # hidden的shape: (num_layers, batch, hidden_size)
         embed = self.embedding(input_token).unsqueeze(1)
-        print("hidden=============", hidden.shape)
         # output的shape: (batch, 1, hidden_size)
         # hn的shape: (num_layers, batch, hidden_size)
         output, hn = self.gru(embed, hidden)
@@ -140,21 +140,21 @@ class Seq2Seq(nn.Module):
         # source_tensors的shape: (batch, src_len), 包含了 EOS, PAD
         # target_tensor的shape: (batch, tgt_len), 包含了 SOS，EOS, PAD
         # src_lengths： 真实的中文长度， 也就是没有PAD
-        _, hn = self.encoder(source_tensors, src_lengths)
-        batch_size = target_tensor.size[0]
-        tgt_len = target_tensor.size[1]
+        encoder_output, hn = self.encoder(source_tensors, src_lengths)
+        batch_size = target_tensor.shape[0]
+        tgt_len = target_tensor.shape[1]
         # 获取英文词表大小
         tgt_vocab_size = self.decoder.fc.out_features
 
         # outputs用来保存每个时间步预测结果的, 用来计算损失的
         # outputs保持和target_tensor同设备运行
-        outputs = torch.zeros(batch_size, tgt_len, tgt_vocab_size).to(target_tensor.device)
+        outputs = torch.zeros(batch_size, tgt_len, tgt_vocab_size, device=target_tensor.device)
         # input_token第一次输入的是SOS
         input_token = target_tensor[:, 0]
         # 循环解码
         for t in range(1, tgt_len):
             # logits的shape: (batch, vocab_size)
-            logits, hn = self.decoder(input_token, hn)
+            logits, hn = self.decoder(input_token, hn, encoder_output)
             # logits得到的是当前时间步模型输出的分数，但是我们计算损失是要所有时间步的分数结果和真实值算损失
             outputs[:, t] = logits
             # logits最大的值对应的索引就是预测的token的id

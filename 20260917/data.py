@@ -74,6 +74,10 @@ class Vocabulary:
         self.index2word = {}
         self.counter = Counter()
 
+    def __len__(self):
+        return len(self.vocab)
+
+
     def generate_vocal(self, pairs, text_index, tokenizer_fun):
         # pair: ("静静的，别动。", "Be still.")
         for pair in pairs:
