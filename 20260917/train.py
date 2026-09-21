@@ -141,24 +141,24 @@ def evaluate(model, loader, criterion, device):
 #  主训练流程
 # ============================================================
 
-def train(cfg: Config):
+def train(Config: Config):
     """
     完整训练流程。
 
     Args:
-        cfg: 全局配置
+        Config: 全局配置
 
     Returns:
         model: 加载了最佳权重的模型
         src_vocab, tgt_vocab, val_pairs: 训练产出
     """
     # 设置随机种子和设备
-    # set_seed(cfg.SEED)
+    # set_seed(Config.SEED)
     device = get_device()
     print(f"计算设备: {device}")
 
     # ── 数据准备 ──
-    train_loader, val_loader, train_pairs, val_pairs, src_vocab, tgt_vocab = generate_dataloader("raw/cmn.txt")
+    train_loader, val_loader, train_pairs, val_pairs, src_vocab, tgt_vocab = generate_dataloader()
 
     # ── 模型构建 ──
     model = build_model(len(src_vocab), len(tgt_vocab), device)
@@ -169,43 +169,43 @@ def train(cfg: Config):
 
     # ── 优化器 ──
     # AdamW：将权重衰减从梯度更新中解耦，正则化效果优于 Adam
-    optimizer = optim.AdamW(model.parameters(), lr=cfg.LEARNING_RATE, weight_decay=1e-4)
+    optimizer = optim.AdamW(model.parameters(), lr=Config.LEARNING_RATE, weight_decay=1e-4)
 
     # ── TensorBoard ──
-    writer = SummaryWriter(log_dir=cfg.TENSORBOARD_DIR)
+    writer = SummaryWriter(log_dir=Config.TENSORBOARD_DIR)
 
     # ── 训练循环 ──
     best_val_loss = float("inf")
     patience_counter = 0  # 早停计数器
     # 确保权重保存目录存在（全新环境首次训练时 weights/ 可能不存在）
-    os.makedirs(cfg.SAVE_DIR, exist_ok=True)
-    best_checkpoint_path = os.path.join(cfg.SAVE_DIR, "best.pt")
+    os.makedirs(Config.SAVE_DIR, exist_ok=True)
+    best_checkpoint_path = os.path.join(Config.SAVE_DIR, "best.pt")
 
     print("\n" + "=" * 70)
     print("开始训练")
     print("=" * 70)
 
-    for epoch in range(cfg.NUM_EPOCHS):
+    for epoch in range(Config.NUM_EPOCHS):
         t0 = time.time()
 
         # Teacher Forcing 线性衰减：从 TF_RATIO_START 线性降到 TF_RATIO_END，但不低于 TF_RATIO_END
         # 前期 TF≈1.0 快速收敛，后期 TF 逐步降低学习纠错能力
-        # cfg.TF_RATIO_START: 起始值1.0
-        # cfg.TF_RATIO_END: 起始值0.5
-        # cfg.TF_RATIO_START - cfg.TF_RATIO_END: 衰减总量
-        # epoch / cfg.NUM_EPOCHS： 当前训练轮次进度
-        # (cfg.TF_RATIO_START - cfg.TF_RATIO_END) * (epoch / cfg.NUM_EPOCHS) 总的衰减根据进度分配
+        # Config.TF_RATIO_START: 起始值1.0
+        # Config.TF_RATIO_END: 起始值0.5
+        # Config.TF_RATIO_START - Config.TF_RATIO_END: 衰减总量
+        # epoch / Config.NUM_EPOCHS： 当前训练轮次进度
+        # (Config.TF_RATIO_START - Config.TF_RATIO_END) * (epoch / Config.NUM_EPOCHS) 总的衰减根据进度分配
         tf_ratio = max(
-            cfg.TF_RATIO_END,
-            cfg.TF_RATIO_START - (cfg.TF_RATIO_START - cfg.TF_RATIO_END) * (epoch / cfg.NUM_EPOCHS)
+            Config.TF_RATIO_END,
+            Config.TF_RATIO_START - (Config.TF_RATIO_START - Config.TF_RATIO_END) * (epoch / Config.NUM_EPOCHS)
         )
 
-        train_loss = train_epoch(model, train_loader, optimizer, criterion, device, cfg.CLIP, tf_ratio, epoch + 1, cfg.NUM_EPOCHS)
+        train_loss = train_epoch(model, train_loader, optimizer, criterion, device, Config.CLIP, tf_ratio, epoch + 1, Config.NUM_EPOCHS)
         val_loss = evaluate(model, val_loader, criterion, device)
 
         elapsed = time.time() - t0
         tqdm.write(
-            f"Epoch {epoch + 1:02d}/{cfg.NUM_EPOCHS} | "
+            f"Epoch {epoch + 1:02d}/{Config.NUM_EPOCHS} | "
             f"train: {train_loss:.4f} | val: {val_loss:.4f} | "
             f"tf: {tf_ratio:.2f} | {elapsed:.1f}s"
         )
@@ -239,7 +239,7 @@ def train(cfg: Config):
             torch.save(model.state_dict(), best_checkpoint_path)
         else:
             patience_counter += 1
-            if patience_counter >= cfg.PATIENCE:
+            if patience_counter >= Config.PATIENCE:
                 tqdm.write(f"\nEarly stopping at epoch {epoch + 1}")
                 break
 
@@ -262,5 +262,5 @@ def train(cfg: Config):
 # ============================================================
 
 if __name__ == "__main__":
-    cfg = Config()
-    train(cfg)
+    Config = Config()
+    train(Config)
