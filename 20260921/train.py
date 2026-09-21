@@ -141,7 +141,7 @@ def evaluate(model, loader, criterion, device):
 #  主训练流程
 # ============================================================
 
-def train(Config: Config):
+def train(Config):
     """
     完整训练流程。
 
