@@ -58,7 +58,7 @@ class Encoder(nn.Module):
         return output, hn
 
 class Attention(nn.Module):
-    def forward(self, decoder_hidden_size, encoder_hidden_size):
+    def forward(self, decoder_hidden_size, encoder_hidden_size, src_mask):
         # 使用解码器的隐藏状态和编码器的输出计算注意力权重
         '''
             decoder_hidden_size: (batch, hidden_size) 
@@ -68,10 +68,15 @@ class Attention(nn.Module):
         encoder_hidden_size_transposed = encoder_hidden_size.transpose(1, 2)
         # 计算注意力分数
         scores = decoder_hidden_size.bmm(encoder_hidden_size_transposed)  # (batch, seq_len)
+        # src_mask升维（batch, 1, seq_len）
+        src_mask = src_mask.unsqueeze(1)
+        # 将注意力分数中对应PAD位置的分数设置为负无穷大
+        scores = scores.masked_fill(~src_mask, float('-inf'))
+
         # 计算注意力权重
-        w = torch.softmax(scores, dim=-1)  # (batch, seq_len)
+        weights = torch.softmax(scores, dim=-1)  # (batch, seq_len)
         # 加权求和
-        context_vector = w.bmm(encoder_hidden_size)  # (batch, hidden_size)
+        context_vector = weights.bmm(encoder_hidden_size)  # (batch, hidden_size)
         return context_vector
 
 
@@ -97,7 +102,7 @@ class Decoder(nn.Module):
         # 将encoder_hidden_size的shape从(batch, seq_len, hidden_size * 2)映射成(batch, seq_len, hidden_size)
         self.encoder_projection = nn.Linear(hidden_size * 2, hidden_size)
 
-    def forward(self, input_token, hidden, encoder_output):
+    def forward(self, input_token, hidden, encoder_output, src_mask):
         # 单步解码
         # Decoder解码器需要接收： 当前时间步的输入（input_token）和Encoder输出的结果（hidden）
         # input_token的shape: (batch, )
@@ -108,24 +113,30 @@ class Decoder(nn.Module):
         # hn的shape: (num_layers, batch, hidden_size)
         output, hn = self.gru(embed, hidden)
 
-        # 注意力机制
-        # hn的shape: (num_layers, batch, hidden_size)
-        # hn[-1]的shape: (batch, hidden_size)
-        # output(context)的shape: (batch, 1, hidden_size)
-        encoder_projection_output = self.encoder_projection(encoder_output)
-        context = self.attention(output, encoder_projection_output)
-        # cat
-        '''
-        hn的shape: (num_layers, batch, hidden_size)
-        hn[-1]的shape: (batch, hidden_size)
-        hn[-1].unsqueeze(1): (batch, 1, hideen_size)
-        context的shape: (batch, 1, hidden_size)
-        combine的shape: (batch, 1, hideen_size * 2)
-        '''
-        combine = torch.cat((context, hn[-1].unsqueeze(1)), dim=2)
 
-        # 线性层
-        out = self.fc(self.encoder_projection(combine).squeeze(1))
+
+        if not Config.USE_ATTENTION:
+            # 线性层
+            out = self.fc(output.squeeze(1))
+        else:
+            # 注意力机制
+            # hn的shape: (num_layers, batch, hidden_size)
+            # hn[-1]的shape: (batch, hidden_size)
+            # output(context)的shape: (batch, 1, hidden_size)
+            encoder_projection_output = self.encoder_projection(encoder_output)
+            context = self.attention(output, encoder_projection_output, src_mask)
+            # cat
+            '''
+            hn的shape: (num_layers, batch, hidden_size)
+            hn[-1]的shape: (batch, hidden_size)
+            hn[-1].unsqueeze(1): (batch, 1, hideen_size)
+            context的shape: (batch, 1, hidden_size)
+            combine的shape: (batch, 1, hideen_size * 2)
+            '''
+            combine = torch.cat((context, hn[-1].unsqueeze(1)), dim=2)
+
+            # 线性层
+            out = self.fc(self.encoder_projection(combine).squeeze(1))
         return out, hn
 
 
@@ -141,6 +152,10 @@ class Seq2Seq(nn.Module):
         # target_tensor的shape: (batch, tgt_len), 包含了 SOS，EOS, PAD
         # src_lengths： 真实的中文长度， 也就是没有PAD
         encoder_output, hn = self.encoder(source_tensors, src_lengths)
+
+        '''True 表示有效 token，False 表示 padding'''
+        src_mask = source_tensors != Config.PADDING_IDX
+
         batch_size = target_tensor.shape[0]
         tgt_len = target_tensor.shape[1]
         # 获取英文词表大小
@@ -154,7 +169,7 @@ class Seq2Seq(nn.Module):
         # 循环解码
         for t in range(1, tgt_len):
             # logits的shape: (batch, vocab_size)
-            logits, hn = self.decoder(input_token, hn, encoder_output)
+            logits, hn = self.decoder(input_token, hn, encoder_output, src_mask)
             # logits得到的是当前时间步模型输出的分数，但是我们计算损失是要所有时间步的分数结果和真实值算损失
             outputs[:, t] = logits
             # logits最大的值对应的索引就是预测的token的id
@@ -197,6 +212,7 @@ if __name__ == '__main__':
     # encoder_output的shape: (batch, seq_len, hidden_size)
     decoder_output = torch.rand((64, 1, 128))
     encoder_output = torch.rand((64, 23, 128))
+    src_mask = torch.ones((64, 23), dtype=torch.bool)
     attention = Attention()
-    context = attention(decoder_output, encoder_output)
+    context = attention(decoder_output, encoder_output, src_mask)
     print(context.shape)

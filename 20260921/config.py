@@ -19,6 +19,8 @@ class Config:
     DECODER_LAYERS = 2
     PADDING_IDX = 0
     DROPOUT_RATE = 0.3
+    USE_ATTENTION = True
+
     # Dropout 概率
     DROPOUT: float = 0.3
     # 随机种子
