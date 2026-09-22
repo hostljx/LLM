@@ -103,7 +103,7 @@ def greedy_decode(
 
     with torch.no_grad():
         # Encoder 编码源序列
-        _, hidden = model.encoder(src_tensor)
+        _, hidden = model.encoder(src_tensor, src_lengths=torch.tensor([len(src_indices)], dtype=torch.long).to(device))
 
         for _ in range(max_len):
             prediction, hidden = model.decoder(input_token, hidden)

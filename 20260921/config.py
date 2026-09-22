@@ -12,7 +12,7 @@ class Config:
     # 划分训练集和验证集的比例
     TRAIN_VAL_RATE = 0.9
     SEED = 10
-    BATCH_SIZE = 3
+    BATCH_SIZE = 16
     EMBEDDING_DIM = 128
     HIDDEN_SIZE = 64
     ENCODER_LAYERS = 2
@@ -28,9 +28,9 @@ class Config:
     # 学习率
     LEARNING_RATE = 0.001
     # TensorBoard 日志目录
-    TENSORBOARD_DIR: str = "runs"
+    TENSORBOARD_DIR = path / "runs"
     # 模型权重保存目录
-    SAVE_DIR: str = "weights"
+    SAVE_DIR = path / "runs" / "weights"
     # 最大训练轮数
     NUM_EPOCHS: int = 70
     # Teacher Forcing 起始比例（训练前期全用真实词，快速收敛）
