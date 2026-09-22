@@ -103,10 +103,12 @@ def greedy_decode(
 
     with torch.no_grad():
         # Encoder 编码源序列
-        _, hidden = model.encoder(src_tensor, src_lengths=torch.tensor([len(src_indices)], dtype=torch.long).to(device))
+        src_lengths = torch.tensor([len(src_indices)], dtype=torch.long)
+        encoder_output, hidden = model.encoder(src_tensor, src_lengths=src_lengths)
+        src_mask = src_tensor != 0
 
         for _ in range(max_len):
-            prediction, hidden = model.decoder(input_token, hidden)
+            prediction, hidden = model.decoder(input_token, hidden, encoder_output, src_mask)
             # 索引保持在 device 上，避免每步 GPU→CPU→GPU 往返；仅在判断和记录时取标量
             top1 = prediction.argmax(1)
             top1_item = top1.item()
