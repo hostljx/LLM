@@ -88,14 +88,14 @@ if __name__ == "__main__":
 
     # 获取验证集和词表（使用缓存，确保与训练时一致）
     print("加载数据和词表...")
-    _, _, _, val_pairs, src_vocab, tgt_vocab = generate_dataloader("raw/cmn.txt", use_cache=True)
+    _, _, _, val_pairs, src_vocab, tgt_vocab = generate_dataloader()
     print(f"验证集: {len(val_pairs)} 条")
     print(f"词表: 中文 {len(src_vocab)} | 英文 {len(tgt_vocab)}")
 
     # 加载模型（用返回的词表大小重新构建）
     print("加载模型...")
-    model = build_model(cfg, len(src_vocab), len(tgt_vocab), device, pad_idx=Vocabulary.PAD_INDEX)
-    ckpt_path = os.path.join(cfg.SAVE_DIR, "best.pt")
+    model = build_model(len(src_vocab), len(tgt_vocab), device)
+    ckpt_path = os.path.join(cfg.SAVE_DIR, "best_attention.pt")
     model.load_state_dict(torch.load(ckpt_path, map_location=device, weights_only=True))
     model.eval()
     print("模型加载完成")
@@ -103,7 +103,6 @@ if __name__ == "__main__":
     # 计算 BLEU
     bleu4 = evaluate_bleu(model, val_pairs, src_vocab, tgt_vocab, device)
     print(f"\n验证集 BLEU-4: {bleu4:.4f}")
-    print("（无注意力 Seq2Seq 在2.6万条 Tatoeba 短句上的 BLEU 通常在10-25之间）")
-
+    print("（带注意力机制的 Seq2Seq 在2.6万条 Tatoeba 短句上的 BLEU 通常在25-40之间）")
     # 展示翻译示例
     show_examples(model, val_pairs, src_vocab, tgt_vocab, device)
