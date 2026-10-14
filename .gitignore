@@ -11,6 +11,10 @@ datasets/
 weights/
 videos/
 PDF/
+model/
+# models/
+课件/
+nlpcc_2017/
 *.xlsx
 *.pth
 *.pt
