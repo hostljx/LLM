@@ -7,8 +7,8 @@ from peft import PeftModel
 from transformers import AutoModelForCausalLM, AutoTokenizer
 
 
-DEFAULT_BASE_MODEL = "Qwen/Qwen2.5-7B-Instruct"
-DEFAULT_LORA_PATH = "/mnt/workspace/20261015/models/final_lora"
+DEFAULT_BASE_MODEL = "/mnt/workspace/model/qwen2.5-7B-Instruct"
+DEFAULT_LORA_PATH = "/mnt/workspace/model/qwen2.5-7B-LoRA"
 DEFAULT_SYSTEM_PROMPT = (
     "您是一位在临床推理、诊断和治疗计划方面具有高级知识的医学专家。"
     "请回答以下医学问题。"
@@ -20,10 +20,16 @@ def check_model_path(base_model_path: str, lora_model_path: str) -> None:
     base_path = Path(base_model_path)
     lora_path = Path(lora_model_path)
 
-    if not base_path.exists():
-        print(
+    is_huggingface_id = (
+        not base_path.is_absolute()
+        and len(base_path.parts) == 2
+        and not base_model_path.startswith((".", "~"))
+    )
+    if not is_huggingface_id and not base_path.is_dir():
+        raise FileNotFoundError(
             f"基础模型路径不存在: {base_model_path}\n"
-            "如果使用 Hugging Face 模型名，请确认网络或 HF 缓存可用。"
+            "请确认服务器上已下载基础模型，并把 --base-model 指向包含 config.json 的目录；"
+            "如果使用 Hugging Face 模型，请传入类似 Qwen/Qwen2.5-7B-Instruct 的模型名。"
         )
 
     if not lora_path.exists():
@@ -78,8 +84,15 @@ def generate_answer(
     max_new_tokens: int = 1024,
     show_think: bool = True,
 ) -> tuple[str, str]:
+    system_prompt = DEFAULT_SYSTEM_PROMPT
+    if show_think:
+        system_prompt += (
+            "请先使用 <think> 和 </think> 标签输出简要分析过程，"
+            "然后再输出最终回答。"
+        )
+
     messages = [
-        {"role": "system", "content": DEFAULT_SYSTEM_PROMPT},
+        {"role": "system", "content": system_prompt},
         {"role": "user", "content": question},
     ]
     prompt = tokenizer.apply_chat_template(
