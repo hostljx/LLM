@@ -37,7 +37,7 @@ model_name="/mnt/workspace/model/qwen2.5-7B-Instruct"
 model = AutoModelForCausalLM.from_pretrained(
     model_name,
     local_files_only=True,
-    device_map="auto",
+    device_map={"": 0},
     torch_dtype=torch.float16,  # 替代 torch_dtype
     quantization_config=bnb_config
 )
@@ -47,13 +47,11 @@ model = AutoModelForCausalLM.from_pretrained(
 
 tokenizer = AutoTokenizer.from_pretrained("/mnt/workspace/model/qwen2.5-7B-Instruct")
 
-model = AutoModelForCausalLM.from_pretrained("/mnt/workspace/model/qwen2.5-7B-Instruct",device_map="auto")
-
 # print(model)
 
 
 # Login using e.g. `huggingface-cli login` to access this dataset
-ds = load_dataset("/mnt/workspace/20261015/medical-o1-reasoning-SFT", "zh",split="train[:]")
+ds = load_dataset("/root/LLM/20261015/medical-o1-reasoning-SFT/", "zh",split="train[:]")
 
 split_dataset = ds.train_test_split(test_size=0.2, seed=42)
 
@@ -172,12 +170,12 @@ data_collator = DataCollatorForSeq2Seq(
     padding=True,
 )
 
-# 开启梯度检查点（节省显存）s
+# 开启梯度检查点（节省显存）
 model.enable_input_require_grads()
 
 
 training_args = TrainingArguments(
-    output_dir="/mnt/workspace/20261015/Qmodels",
+    output_dir="/root/LLM/Qmodels",
 
     # 训练设置
     num_train_epochs=1,
@@ -212,8 +210,8 @@ training_args = TrainingArguments(
     gradient_checkpointing=True,
 
     # 混合精度
-    bf16=True,
-    fp16=False,
+    bf16=torch.cuda.is_available() and torch.cuda.is_bf16_supported(),
+    fp16=torch.cuda.is_available() and not torch.cuda.is_bf16_supported(),
 
     # 优化器
     optim="adamw_torch_fused",
@@ -235,6 +233,6 @@ trainer = Trainer(
 if __name__ == "__main__":
     trainer.train()
 
-    trainer.save_model("/mnt/workspace/model/qwen2.5-7B-QLoRA")
+    trainer.save_model("/root/LLM/qwen2.5-7B-QLoRA")
 
 
