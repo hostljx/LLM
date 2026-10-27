@@ -24,9 +24,27 @@ echo "仓库：$(pwd)"
 echo "分支：$BRANCH"
 echo
 
-# ---------- 情况一：本地没改动，只检查远端 ----------
+# ---------- 情况一：工作区没改动 ----------
 if [ -z "$(git status --porcelain)" ]; then
-  yellow "本地没有改动，检查远端有没有新提交…"
+  yellow "工作区没有改动。"
+  git fetch --quiet origin 2>/dev/null || true
+
+  AHEAD=$(git rev-list --count "origin/$BRANCH..HEAD" 2>/dev/null || echo 0)
+  if [ "$AHEAD" -gt 0 ] 2>/dev/null; then
+    yellow "发现 $AHEAD 个本地提交还没推送，开始推送…"
+    if ! git pull --rebase; then
+      red "拉取失败，见上面的报错信息。"
+      exit 1
+    fi
+    if git push; then
+      green "已推送 $AHEAD 个提交到 origin/$BRANCH"
+      exit 0
+    fi
+    red "推送失败。提交已在本地，等网络恢复后再 git push 即可。"
+    exit 1
+  fi
+
+  yellow "检查远端有没有新提交…"
   if git pull --rebase; then
     green "完成，本地已是最新。"
     exit 0
