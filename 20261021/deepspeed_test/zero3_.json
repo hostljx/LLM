@@ -1,0 +1,52 @@
+{
+  "fp16": {
+      "enabled": true,                 // 开启 FP16 混合精度：前向和反向用 FP16，主权重保持 FP32
+      "loss_scale": 0,                 // 0 表示动态损失缩放；固定成正数则使用该固定缩放
+      "loss_scale_window": 1000,       // 动态缩放的观察窗口，按步数统计这段里有没有溢出
+      "initial_scale_power": 16,       // 初始 loss scale = 2^16 = 65536
+      "hysteresis": 2,                 // 连续 2 个窗口都没有溢出，才把 loss scale 放大
+      "min_loss_scale": 1              // loss scale 的下限，缩小到 1 后不再继续降
+  },
+  "optimizer": {
+      "type": "AdamW",                 // 优化器类型
+      "params": {
+          "lr": "auto",                // 学习率交给 Trainer / Accelerate 填入
+          "weight_decay": "auto"       // 权重衰减同样由外部训练参数填入
+      }
+  },
+  "scheduler": {
+      "type": "WarmupDecayLR",         // DeepSpeed 调度器：先线性 warmup，再线性衰减
+      "params": {
+          "warmup_min_lr": "auto",     // warmup 起始学习率，由外部填入
+          "warmup_max_lr": "auto",     // warmup 结束、正式训练用的学习率
+          "warmup_num_steps": "auto",  // warmup 步数
+          "total_num_steps": "auto"    // 总训练步数，用来计算衰减
+      }
+  },
+  "zero_optimization": {
+      "stage": 3,                      // ZeRO-3：优化器状态、梯度、模型参数都按卡切分
+      "offload_optimizer": {
+          "device": "cpu",             // 优化器状态放到 CPU 内存（CPU Offload）
+          "pin_memory": true           // 锁页内存，加快 CPU 和 GPU 之间拷贝
+      },
+      "offload_param": {
+          "device": "cpu",             // 模型参数也卸载到 CPU，单卡不用常驻整份参数
+          "pin_memory": true           // 参数缓冲同样使用锁页内存
+      },
+      "overlap_comm": true,            // 通信和反向计算重叠，掩盖卡间传输时间
+      "contiguous_gradients": true,    // 梯度拷进连续显存，减少碎片并方便集合通信
+      "reduce_bucket_size": "auto",    // 梯度规约的桶大小，auto 由框架按模型规模填写
+      "stage3_prefetch_bucket_size": "auto",          // 预先 allgather 下一批参数的大小，用来重叠通信
+      "stage3_param_persistence_threshold": "auto",   // 小于该元素数的参数留在 GPU，避免小参数反复搬运
+      "sub_group_size": 1e9,           // 优化器更新时每块处理的元素上限；1e9 表示基本不再切小块
+      "stage3_max_live_parameters": 1e9,    // 同时留在 GPU 上的参数数量上限；1e9 表示很少提前释放
+      "stage3_max_reuse_distance": 1e9,     // 参数即将再次使用时保留的距离阈值；1e9 表示尽量留着复用
+      "stage3_gather_16bit_weights_on_model_save": "auto"  // 存盘时是否把 16 位权重聚合成完整模型；auto 通常会聚成一份可直接加载的权重
+  },
+  "gradient_accumulation_steps": "auto",    // DeepSpeed 侧梯度累积步数。和训练脚本不一致时以实际传入 DeepSpeed 的值为准；想跟 Trainer 走就写成 "auto"
+  "gradient_clipping": "auto",         // 梯度裁剪阈值，auto 时使用 TrainingArguments.max_grad_norm
+  "steps_per_print": 2000,             // DeepSpeed 自己的日志间隔，每 2000 步打印一次，和 Trainer 的 logging_steps 无关
+  "train_batch_size": "auto",          // 全局 batch = 每卡 micro batch × 梯度累积 × GPU 数，由外部填入
+  "train_micro_batch_size_per_gpu": "auto",  // 每张卡每次前向的样本数，对应 per_device_train_batch_size
+  "wall_clock_breakdown": false        // 不打印前向、反向、优化器各阶段的耗时拆解
+}

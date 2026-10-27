@@ -1,0 +1,21 @@
+# 计算环境：本机启动，不走多机集群或云平台
+compute_environment: LOCAL_MACHINE
+
+deepspeed_config:
+ gradient_accumulation_steps: auto  # 跟 TrainingArguments 走；脚本里是 16，这里写成数字会和脚本对不上并报错
+ gradient_clipping: 1.0  # 梯度裁剪阈值，按全局范数裁到 1.0，减轻梯度爆炸
+ offload_optimizer_device: none  # 优化器状态留在 GPU；cpu/nvme 才会卸载到 CPU 或硬盘（ZeRO-Offload）
+ offload_param_device: none  # 模型参数不卸载；该选项只在 ZeRO Stage 3 生效
+ zero3_init_flag: false  # 建模型时不走 ZeRO-3 参数分片；仅 Stage 3 才应为 true，Stage 2 写成 true 会被改回 false 并报警
+ zero_stage: 2  # ZeRO-2：优化器状态和梯度按卡切分，模型参数仍在每张卡上各留一份
+
+distributed_type: DEEPSPEED  # 用 DeepSpeed 做分布式训练
+fsdp_config: {}  # 空配置，表示不用 PyTorch FSDP
+machine_rank: 0  # 本机编号；单机只有一台，固定为 0
+main_process_ip: null  # 主进程 IP；单机由本机通信，不需要填写
+main_process_port: null  # 主进程端口；单机不需要填写
+main_training_function: main  # 训练入口函数名，accelerate launch 默认调用 main
+mixed_precision: fp16  # FP16 混合精度；计算用 FP16，主权重和部分归约仍用 FP32
+num_machines: 1  # 机器数量：1 台
+num_processes: 2  # 进程数，通常等于 GPU 数；这里是 2 张卡
+use_cpu: false  # 在 GPU 上训练，不用 CPU

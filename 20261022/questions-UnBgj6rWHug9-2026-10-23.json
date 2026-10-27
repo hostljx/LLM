@@ -1,0 +1,2897 @@
+[
+  {
+    "question": "Qwen2.5-Math技术报告旨在通过何种方法构建数学专家模型",
+    "chunkName": "Qwen3_Technical_Report-part-64",
+    "questionLabel": ""
+  },
+  {
+    "question": "P-MMEval基准测试的主要设计目的是为了解决大语言模型评估中的什么问题？",
+    "chunkName": "Qwen3_Technical_Report-part-64",
+    "questionLabel": ""
+  },
+  {
+    "question": "AutoLogi项目是如何利用自动化手段来评估大语言模型的推理能力的？",
+    "chunkName": "Qwen3_Technical_Report-part-64",
+    "questionLabel": ""
+  },
+  {
+    "question": "Jeffrey Zhou等人提出的研究主要关注于对大型语言模型进行哪方面的评估",
+    "chunkName": "Qwen3_Technical_Report-part-64",
+    "questionLabel": ""
+  },
+  {
+    "question": "Qwen2.5技术报告的预印本编号是多少？",
+    "chunkName": "Qwen3_Technical_Report-part-64",
+    "questionLabel": ""
+  },
+  {
+    "question": "Qwen2技术报告是在哪一年发布的，其CoRR标识符是什么",
+    "chunkName": "Qwen3_Technical_Report-part-64",
+    "questionLabel": ""
+  },
+  {
+    "question": "Freda Shi等人在2023年ICLR会议上发表的研究主要探讨了语言模型的哪项能力？",
+    "chunkName": "Qwen3_Technical_Report-part-62",
+    "questionLabel": ""
+  },
+  {
+    "question": "Guijin Son等人关于数学推理中测试时扩展的语言泛化性研究发表于哪一年",
+    "chunkName": "Qwen3_Technical_Report-part-62",
+    "questionLabel": ""
+  },
+  {
+    "question": "Roformer模型通过引入什么机制来增强Transformer架构？",
+    "chunkName": "Qwen3_Technical_Report-part-62",
+    "questionLabel": ""
+  },
+  {
+    "question": "Jianlin Su等人发表的Roformer论文刊登在哪本期刊上？",
+    "chunkName": "Qwen3_Technical_Report-part-62",
+    "questionLabel": ""
+  },
+  {
+    "question": "Mirac Suzgun等人针对BIG-Bench任务进行了何种类型的评估",
+    "chunkName": "Qwen3_Technical_Report-part-62",
+    "questionLabel": ""
+  },
+  {
+    "question": "Gemma Team在2025年发布的关于Gemma 3的技术报告主要涉及哪个领域的模型",
+    "chunkName": "Qwen3_Technical_Report-part-62",
+    "questionLabel": ""
+  },
+  {
+    "question": "Changhan Wang等人在2020年AAAI会议上提出的神经机器翻译方法使用了哪种子词技术",
+    "chunkName": "Qwen3_Technical_Report-part-62",
+    "questionLabel": ""
+  },
+  {
+    "question": "PolyMath项目旨在从什么角度评估数学推理能力",
+    "chunkName": "Qwen3_Technical_Report-part-62",
+    "questionLabel": ""
+  },
+  {
+    "question": "MMLU-Pro基准测试相较于传统多任务理解基准具有哪些特点？",
+    "chunkName": "Qwen3_Technical_Report-part-62",
+    "questionLabel": ""
+  },
+  {
+    "question": "Yubo Wang等人设计的MMLU-Pro基准测试发表于哪一年？",
+    "chunkName": "Qwen3_Technical_Report-part-62",
+    "questionLabel": ""
+  },
+  {
+    "question": "LiveBench旨在解决大语言模型基准测试中的什么核心问题？",
+    "chunkName": "Qwen3_Technical_Report-part-63",
+    "questionLabel": ""
+  },
+  {
+    "question": "WritingBench主要评估生成式AI在哪个具体领域的能力？",
+    "chunkName": "Qwen3_Technical_Report-part-63",
+    "questionLabel": ""
+  },
+  {
+    "question": "xAI发布的Grok 3 beta被描述为进入了哪个新时代？",
+    "chunkName": "Qwen3_Technical_Report-part-63",
+    "questionLabel": ""
+  },
+  {
+    "question": "Doremi方法通过优化什么要素来加速语言模型的预训练过程？",
+    "chunkName": "Qwen3_Technical_Report-part-63",
+    "questionLabel": ""
+  },
+  {
+    "question": "Wenhan Xiong等人提出的研究主要关注基础模型在哪一方面的有效扩展？",
+    "chunkName": "Qwen3_Technical_Report-part-63",
+    "questionLabel": ""
+  },
+  {
+    "question": "Berkeley函数调用排行榜（BFCL）主要评估大语言模型的哪项特定能力？",
+    "chunkName": "Qwen3_Technical_Report-part-63",
+    "questionLabel": ""
+  },
+  {
+    "question": "CoRR上发表的2025年关于写作基准的论文标题是什么？",
+    "chunkName": "Qwen3_Technical_Report-part-63",
+    "questionLabel": ""
+  },
+  {
+    "question": "Neural Information Processing Systems会议收录的Doremi论文发表于哪一年",
+    "chunkName": "Qwen3_Technical_Report-part-63",
+    "questionLabel": ""
+  },
+  {
+    "question": "AlignBench基准测试主要针对大型语言模型的哪方面能力进行评估？",
+    "chunkName": "Qwen3_Technical_Report-part-60",
+    "questionLabel": ""
+  },
+  {
+    "question": "Meta-AI发布的Llama 4系列模型被描述为开启了哪个领域的新时代",
+    "chunkName": "Qwen3_Technical_Report-part-60",
+    "questionLabel": ""
+  },
+  {
+    "question": "OpenAI在2024年推出的多语言大规模多任务语言理解数据集名称是什么？",
+    "chunkName": "Qwen3_Technical_Report-part-60",
+    "questionLabel": ""
+  },
+  {
+    "question": "YaRN技术旨在解决大型语言模型的什么具体问题？",
+    "chunkName": "Qwen3_Technical_Report-part-60",
+    "questionLabel": ""
+  },
+  {
+    "question": "Zihan Qiu等人关于混合专家模型的研究重点在于实现哪种损失函数以进行负载均衡",
+    "chunkName": "Qwen3_Technical_Report-part-60",
+    "questionLabel": ""
+  },
+  {
+    "question": "CodeElo基准测试用于评估大型语言模型在哪一特定水平的代码生成能力？",
+    "chunkName": "Qwen3_Technical_Report-part-60",
+    "questionLabel": ""
+  },
+  {
+    "question": "Qwen Team在2025年3月发布的QwQ-32B模型主要强调利用了什么技术？",
+    "chunkName": "Qwen3_Technical_Report-part-60",
+    "questionLabel": ""
+  },
+  {
+    "question": "OpenAI在2025年介绍了哪些新的推理模型",
+    "chunkName": "Qwen3_Technical_Report-part-60",
+    "questionLabel": ""
+  },
+  {
+    "question": "GPQA基准测试主要评估模型在哪一知识层次的能力？",
+    "chunkName": "Qwen3_Technical_Report-part-61",
+    "questionLabel": ""
+  },
+  {
+    "question": "INCLUDE数据集旨在通过何种方式来评估多语言语言理解能力？",
+    "chunkName": "Qwen3_Technical_Report-part-61",
+    "questionLabel": ""
+  },
+  {
+    "question": "Sennrich等人提出的神经机器翻译方法如何处理罕见词",
+    "chunkName": "Qwen3_Technical_Report-part-61",
+    "questionLabel": ""
+  },
+  {
+    "question": "DeepSeekMath研究致力于在开源语言模型中突破哪方面的极限？",
+    "chunkName": "Qwen3_Technical_Report-part-61",
+    "questionLabel": ""
+  },
+  {
+    "question": "GPQA论文发表的具体年份是哪一年？",
+    "chunkName": "Qwen3_Technical_Report-part-61",
+    "questionLabel": ""
+  },
+  {
+    "question": "INCLUDE论文的预印本编号（arXiv ID）是什么",
+    "chunkName": "Qwen3_Technical_Report-part-61",
+    "questionLabel": ""
+  },
+  {
+    "question": "Neural machine translation of rare words with subword units这篇论文是在哪个会议上发表的？",
+    "chunkName": "Qwen3_Technical_Report-part-61",
+    "questionLabel": ""
+  },
+  {
+    "question": "Zhihong Shao等人在2024年发布的CoRR论文标题是什么",
+    "chunkName": "Qwen3_Technical_Report-part-61",
+    "questionLabel": ""
+  },
+  {
+    "question": "Pre-RMSNorm和Pre-CRMSNorm变换在Transformer架构中具有什么特性？",
+    "chunkName": "Qwen3_Technical_Report-part-59",
+    "questionLabel": ""
+  },
+  {
+    "question": "Tulu 3项目旨在推动哪一领域的研究前沿",
+    "chunkName": "Qwen3_Technical_Report-part-59",
+    "questionLabel": ""
+  },
+  {
+    "question": "Arena-Hard和BenchBuilder流水线的主要目的是将何种数据转化为高质量基准",
+    "chunkName": "Qwen3_Technical_Report-part-59",
+    "questionLabel": ""
+  },
+  {
+    "question": "Lightman等人提出的方法主要关注大语言模型的哪个验证过程？",
+    "chunkName": "Qwen3_Technical_Report-part-59",
+    "questionLabel": ""
+  },
+  {
+    "question": "ZebraLogic基准测试主要评估大型语言模型在哪种推理能力上的扩展极限",
+    "chunkName": "Qwen3_Technical_Report-part-59",
+    "questionLabel": ""
+  },
+  {
+    "question": "DeepSeek-V3技术报告是在哪一年发布的",
+    "chunkName": "Qwen3_Technical_Report-part-59",
+    "questionLabel": ""
+  },
+  {
+    "question": "Liu等人关于ChatGPT生成代码的研究重点是什么",
+    "chunkName": "Qwen3_Technical_Report-part-59",
+    "questionLabel": ""
+  },
+  {
+    "question": "RegMix方法在大语言模型预训练中如何处理数据混合问题？",
+    "chunkName": "Qwen3_Technical_Report-part-59",
+    "questionLabel": ""
+  },
+  {
+    "question": "DeepSeek-R1 是通过什么方法来激励大语言模型的推理能力的",
+    "chunkName": "Qwen3_Technical_Report-part-58",
+    "questionLabel": ""
+  },
+  {
+    "question": "Multi-IF 基准主要评估了大型语言模型在哪两个方面的指令遵循能力？",
+    "chunkName": "Qwen3_Technical_Report-part-58",
+    "questionLabel": ""
+  },
+  {
+    "question": "MATH 数据集被用于测量大型语言模型的哪项特定能力",
+    "chunkName": "Qwen3_Technical_Report-part-58",
+    "questionLabel": ""
+  },
+  {
+    "question": "RULER 基准旨在探究长上下文语言模型的什么真实属性",
+    "chunkName": "Qwen3_Technical_Report-part-58",
+    "questionLabel": ""
+  },
+  {
+    "question": "C-Eval 评测套件是针对哪种语言的基础模型进行多级别和多学科评估的",
+    "chunkName": "Qwen3_Technical_Report-part-58",
+    "questionLabel": ""
+  },
+  {
+    "question": "Qwen2.5-Coder 的技术报告主要关注的是哪一类人工智能模型？",
+    "chunkName": "Qwen3_Technical_Report-part-58",
+    "questionLabel": ""
+  },
+  {
+    "question": "LiveCodeBench 在评估代码相关的大语言模型时，强调了哪两个关键特性？",
+    "chunkName": "Qwen3_Technical_Report-part-58",
+    "questionLabel": ""
+  },
+  {
+    "question": "Hendrycks 等人在 ICLR 发表的研究主要致力于衡量大规模多任务语言理解能力。",
+    "chunkName": "Qwen3_Technical_Report-part-58",
+    "questionLabel": ""
+  },
+  {
+    "question": "Language models are few-shot learners这篇论文是在哪一年的NeurIPS会议上发表的",
+    "chunkName": "Qwen3_Technical_Report-part-55",
+    "questionLabel": ""
+  },
+  {
+    "question": "MultiPL-E项目的主要贡献是什么，它采用了一种怎样的方法来基准测试神经代码生成？",
+    "chunkName": "Qwen3_Technical_Report-part-55",
+    "questionLabel": ""
+  },
+  {
+    "question": "Evaluating large language models trained on code这篇论文发表在哪个平台或期刊上",
+    "chunkName": "Qwen3_Technical_Report-part-55",
+    "questionLabel": ""
+  },
+  {
+    "question": "Training verifiers to solve math word problems这篇研究的核心目标是什么？",
+    "chunkName": "Qwen3_Technical_Report-part-55",
+    "questionLabel": ""
+  },
+  {
+    "question": "MultiPL-E的发表信息中包含了哪些具体的卷号、期号和页码范围",
+    "chunkName": "Qwen3_Technical_Report-part-55",
+    "questionLabel": ""
+  },
+  {
+    "question": "Gretchen Krueger和Dario Amodei共同参与的关于语言模型少样本学习的论文发表于哪一年",
+    "chunkName": "Qwen3_Technical_Report-part-55",
+    "questionLabel": ""
+  },
+  {
+    "question": "Mark Chen作为作者之一参与了哪些关于大语言模型或代码生成的研究论文？",
+    "chunkName": "Qwen3_Technical_Report-part-55",
+    "questionLabel": ""
+  },
+  {
+    "question": "IEEE Transactions on Software Engineering在2023年收录了关于多语言代码生成基准测试的哪篇论文",
+    "chunkName": "Qwen3_Technical_Report-part-55",
+    "questionLabel": ""
+  },
+  {
+    "question": "Karl Cobbe等人提出的训练验证器以解决数学应用题的方法属于哪种类型的研究",
+    "chunkName": "Qwen3_Technical_Report-part-55",
+    "questionLabel": ""
+  },
+  {
+    "question": "Clemens Winter和Ilya Sutskever共同参与撰写的关于语言模型少样本能力的论文标题是什么？",
+    "chunkName": "Qwen3_Technical_Report-part-55",
+    "questionLabel": ""
+  },
+  {
+    "question": "Llama 3 模型系列是由哪些主要研究人员共同发表的？",
+    "chunkName": "Qwen3_Technical_Report-part-57",
+    "questionLabel": ""
+  },
+  {
+    "question": "Simin Fan, Matteo Pagliardini 和 Martin Jaggi 提出的 DoGE 方法主要关注什么领域的问题",
+    "chunkName": "Qwen3_Technical_Report-part-57",
+    "questionLabel": ""
+  },
+  {
+    "question": "Aryo Pradipta Gema 等人关于 MMLU 基准测试的论文是在哪一年发布的",
+    "chunkName": "Qwen3_Technical_Report-part-57",
+    "questionLabel": ""
+  },
+  {
+    "question": "CRUXEval 这个基准测试旨在评估模型的哪些具体能力",
+    "chunkName": "Qwen3_Technical_Report-part-57",
+    "questionLabel": ""
+  },
+  {
+    "question": "Gabriel Synnaeve 在 Llama 3 模型系列和 CRUXEval 这两项工作中是否都有参与",
+    "chunkName": "Qwen3_Technical_Report-part-57",
+    "questionLabel": ""
+  },
+  {
+    "question": "DoGE 论文中提到的“domain reweighting”与什么技术相结合以进行估计",
+    "chunkName": "Qwen3_Technical_Report-part-57",
+    "questionLabel": ""
+  },
+  {
+    "question": "Alex Gu, Baptiste Roziere 等人在 CRUXEval 研究中涉及的主要研究领域是什么？",
+    "chunkName": "Qwen3_Technical_Report-part-57",
+    "questionLabel": ""
+  },
+  {
+    "question": "根据提供的文献列表，CoRR abs/2407.21783 对应的是哪一篇具体的学术论文标题",
+    "chunkName": "Qwen3_Technical_Report-part-57",
+    "questionLabel": ""
+  },
+  {
+    "question": "DeepSeekMoE模型主要致力于解决混合专家语言模型中的什么问题？",
+    "chunkName": "Qwen3_Technical_Report-part-56",
+    "questionLabel": ""
+  },
+  {
+    "question": "Yann N. Dauphin等人提出的门控卷积网络旨在应用于哪个自然语言处理任务？",
+    "chunkName": "Qwen3_Technical_Report-part-56",
+    "questionLabel": ""
+  },
+  {
+    "question": "Google DeepMind发布的Gemini 2.5版本在2025年3月引入了哪些关于模型思考的更新？",
+    "chunkName": "Qwen3_Technical_Report-part-56",
+    "questionLabel": ""
+  },
+  {
+    "question": "Mostafa Dehghani等人的研究将视觉Transformer模型的参数规模扩展到了多少",
+    "chunkName": "Qwen3_Technical_Report-part-56",
+    "questionLabel": ""
+  },
+  {
+    "question": "SuperGPQA基准测试数据集覆盖了多少个研究生学科领域以评估大语言模型",
+    "chunkName": "Qwen3_Technical_Report-part-56",
+    "questionLabel": ""
+  },
+  {
+    "question": "Dehghani等人关于视觉Transformer的研究成果发表在哪个机器学习顶级会议及其卷号上",
+    "chunkName": "Qwen3_Technical_Report-part-56",
+    "questionLabel": ""
+  },
+  {
+    "question": "Dauphin等人关于门控卷积网络的研究发表于哪一年的ICML会议论文集中",
+    "chunkName": "Qwen3_Technical_Report-part-56",
+    "questionLabel": ""
+  },
+  {
+    "question": "DeepSeekMoE的相关论文在arXiv上的预印本编号是什么",
+    "chunkName": "Qwen3_Technical_Report-part-56",
+    "questionLabel": ""
+  },
+  {
+    "question": "Chenxin An等人2024年发表的研究主要关注大语言模型的哪项特性",
+    "chunkName": "Qwen3_Technical_Report-part-54",
+    "questionLabel": ""
+  },
+  {
+    "question": "Jacob Austin及其团队在2021年的工作中探讨了大型语言模型在哪一领域的具体应用？",
+    "chunkName": "Qwen3_Technical_Report-part-54",
+    "questionLabel": ""
+  },
+  {
+    "question": "Jinze Bai等人发布的Qwen技术报告是在哪一年完成的",
+    "chunkName": "Qwen3_Technical_Report-part-54",
+    "questionLabel": ""
+  },
+  {
+    "question": "Shuai Bai等人提出的Qwen2.5-VL技术报告属于什么类型的预印本",
+    "chunkName": "Qwen3_Technical_Report-part-54",
+    "questionLabel": ""
+  },
+  {
+    "question": "Lucas Bandarkar等人构建的Belebele基准测试涵盖了多少种语言变体",
+    "chunkName": "Qwen3_Technical_Report-part-54",
+    "questionLabel": ""
+  },
+  {
+    "question": "The Belebele benchmark数据集的主要用途是什么类型的阅读理解任务",
+    "chunkName": "Qwen3_Technical_Report-part-54",
+    "questionLabel": ""
+  },
+  {
+    "question": "Anthropic公司在2025年发布了哪个版本的Claude模型",
+    "chunkName": "Qwen3_Technical_Report-part-54",
+    "questionLabel": ""
+  },
+  {
+    "question": "Tom B. Brown等人2020年或之后的相关工作中涉及了哪些关键贡献者",
+    "chunkName": "Qwen3_Technical_Report-part-54",
+    "questionLabel": ""
+  },
+  {
+    "question": "在印欧语系（IndoEuropean）测试中，Qwen3-32B (Thinking) 模型获得了多少分",
+    "chunkName": "Qwen3_Technical_Report-part-53",
+    "questionLabel": ""
+  },
+  {
+    "question": "与其他同规模模型相比，Qwen3-14B (Thinking) 在汉藏语系（SinoTibetan）上的表现如何",
+    "chunkName": "Qwen3_Technical_Report-part-53",
+    "questionLabel": ""
+  },
+  {
+    "question": "根据表格数据，Gemma-3-27B-IT 在 Austronesian 语系上的得分是多少",
+    "chunkName": "Qwen3_Technical_Report-part-53",
+    "questionLabel": ""
+  },
+  {
+    "question": "在非思考模式（Non-thinking）下，Qwen3-32B 在 Dravidian 语系上取得了怎样的成绩",
+    "chunkName": "Qwen3_Technical_Report-part-53",
+    "questionLabel": ""
+  },
+  {
+    "question": "对比 Qwen3-4B 的思考模式与非思考模式，两者在 Turkic^ 语系上的得分差异是多少",
+    "chunkName": "Qwen3_Technical_Report-part-53",
+    "questionLabel": ""
+  },
+  {
+    "question": "在小参数模型组中，哪个模型在 Other 类别上获得了最高分",
+    "chunkName": "Qwen3_Technical_Report-part-53",
+    "questionLabel": ""
+  },
+  {
+    "question": "Qwen2.5-14B-Instruct 在 TaiKadai 语系上的具体评分是多少",
+    "chunkName": "Qwen3_Technical_Report-part-53",
+    "questionLabel": ""
+  },
+  {
+    "question": "表格中通过加粗和划线分别标记了哪两种排名情况",
+    "chunkName": "Qwen3_Technical_Report-part-53",
+    "questionLabel": ""
+  },
+  {
+    "question": "在德语（German）基准测试的思考模式（Thinking Mode）下，哪款模型的平均分最高",
+    "chunkName": "Qwen3_Technical_Report-part-51",
+    "questionLabel": ""
+  },
+  {
+    "question": "对比非思考模式（Non-thinking Mode），Qwen3-235B-A22B 在德语 MT-AIME24 项目上的得分是多少",
+    "chunkName": "Qwen3_Technical_Report-part-51",
+    "questionLabel": ""
+  },
+  {
+    "question": "在泰语（Thai）基准测试中，Gemini2.5-Pro 在思考模式下的平均分与 QwQ-32B 相比如何？",
+    "chunkName": "Qwen3_Technical_Report-part-51",
+    "questionLabel": ""
+  },
+  {
+    "question": "Qwen3-0.6B 模型在非思考模式下，泰语 PolyMath 项目的得分是多少？",
+    "chunkName": "Qwen3_Technical_Report-part-51",
+    "questionLabel": ""
+  },
+  {
+    "question": "在德语基准测试的非思考模式中，GPT-4o-2024-1120 的 INCLUDE 分数是多少",
+    "chunkName": "Qwen3_Technical_Report-part-51",
+    "questionLabel": ""
+  },
+  {
+    "question": "比较 Qwen3-8B 在德语和泰语基准测试中的表现，其在两种语言的思考模式下平均分分别是多少",
+    "chunkName": "Qwen3_Technical_Report-part-51",
+    "questionLabel": ""
+  },
+  {
+    "question": "在泰语基准测试的非思考模式下，哪款模型的 MT-AIME24 得分最低？",
+    "chunkName": "Qwen3_Technical_Report-part-51",
+    "questionLabel": ""
+  },
+  {
+    "question": "在印尼语（Indonesian）基准测试的思考模式（Thinking Mode）下，哪两个模型的平均得分并列最高？",
+    "chunkName": "Qwen3_Technical_Report-part-49",
+    "questionLabel": ""
+  },
+  {
+    "question": "GPT-4o-2024-1120 在非思考模式（Non-thinking Mode）下的 PolyMath 分数是多少",
+    "chunkName": "Qwen3_Technical_Report-part-49",
+    "questionLabel": ""
+  },
+  {
+    "question": "对比 Qwen3-235B-A22B 和 Qwen3-32B，哪个模型在 MT-AIME24 基准测试中的得分更高？",
+    "chunkName": "Qwen3_Technical_Report-part-49",
+    "questionLabel": ""
+  },
+  {
+    "question": "在印尼语基准测试的非思考模式下，Qwen3-0.6B 的 MT-AIME24 得分是多少",
+    "chunkName": "Qwen3_Technical_Report-part-49",
+    "questionLabel": ""
+  },
+  {
+    "question": "Gemini2.5-Pro 在 INCLUDE 基准测试中取得了多少分",
+    "chunkName": "Qwen3_Technical_Report-part-49",
+    "questionLabel": ""
+  },
+  {
+    "question": "列出所有在 PolyMath 基准测试中得分超过 50 分的非思考模式模型。",
+    "chunkName": "Qwen3_Technical_Report-part-49",
+    "questionLabel": ""
+  },
+  {
+    "question": "Qwen2.5-72B-Instruct 在印尼语基准测试的 MMMLU 项目中表现如何？",
+    "chunkName": "Qwen3_Technical_Report-part-49",
+    "questionLabel": ""
+  },
+  {
+    "question": "比较 QwQ-32B 在 INCLUDE 和 MMMLU 两项基准测试中的得分差异。",
+    "chunkName": "Qwen3_Technical_Report-part-49",
+    "questionLabel": ""
+  },
+  {
+    "question": "在思考模式下，Qwen3-8B 的平均得分是否高于 GPT-4o-2024-1120 在非思考模式下的平均得分",
+    "chunkName": "Qwen3_Technical_Report-part-49",
+    "questionLabel": ""
+  },
+  {
+    "question": "哪个模型在印尼语基准测试的思考模式下 PolyMath 得分最高",
+    "chunkName": "Qwen3_Technical_Report-part-49",
+    "questionLabel": ""
+  },
+  {
+    "question": "印欧语系（Indo-European）在提供的语言列表中包含多少种语言",
+    "chunkName": "Qwen3_Technical_Report-part-52",
+    "questionLabel": ""
+  },
+  {
+    "question": "汉藏语系（Sino-Tibetan）中列出的具体语言代码和书写系统有哪些？",
+    "chunkName": "Qwen3_Technical_Report-part-52",
+    "questionLabel": ""
+  },
+  {
+    "question": "阿非罗-亚细亚语系（Afro-Asiatic）包含8种语言，其中使用拉丁字母（Latn）书写的语言是哪一种",
+    "chunkName": "Qwen3_Technical_Report-part-52",
+    "questionLabel": ""
+  },
+  {
+    "question": "南岛语系（Austronesian）中提到的语言共有几种，请列举出其中使用菲律宾文字或拉丁字母的语言代码。",
+    "chunkName": "Qwen3_Technical_Report-part-52",
+    "questionLabel": ""
+  },
+  {
+    "question": "德拉维达语系（Dravidian）包括哪四种语言及其对应的ISO 15924书写系统代码",
+    "chunkName": "Qwen3_Technical_Report-part-52",
+    "questionLabel": ""
+  },
+  {
+    "question": "在俄语语言基准测试的思维模式（Thinking Mode）下，哪个模型的平均得分最高？",
+    "chunkName": "Qwen3_Technical_Report-part-50",
+    "questionLabel": ""
+  },
+  {
+    "question": "对比俄语测试中Qwen3-235B-A22B模型在思维模式和非思维模式下的INCLUDE基准得分分别是多少？",
+    "chunkName": "Qwen3_Technical_Report-part-50",
+    "questionLabel": ""
+  },
+  {
+    "question": "在越南语语言基准测试的非思维模式（Non-thinking Mode）中，GPT-4o-2024-1120模型的PolyMath得分是多少",
+    "chunkName": "Qwen3_Technical_Report-part-50",
+    "questionLabel": ""
+  },
+  {
+    "question": "哪个模型在越南语测试的思维模式下获得了最高的MLogiQA得分，具体数值是多少？",
+    "chunkName": "Qwen3_Technical_Report-part-50",
+    "questionLabel": ""
+  },
+  {
+    "question": "在俄语测试中，Qwen3-1.7B模型在思维模式与非思维模式下的平均得分差异是多少",
+    "chunkName": "Qwen3_Technical_Report-part-50",
+    "questionLabel": ""
+  },
+  {
+    "question": "在越南语测试的非思维模式中，哪两个模型在MT-AIME24基准上取得了相同的81.8分？",
+    "chunkName": "Qwen3_Technical_Report-part-50",
+    "questionLabel": ""
+  },
+  {
+    "question": "Gemini2.5-Pro模型在俄语和越南语的语言基准测试中，其思维模式的平均得分分别是多少",
+    "chunkName": "Qwen3_Technical_Report-part-50",
+    "questionLabel": ""
+  },
+  {
+    "question": "在越南语测试的思维模式下，QwQ-32B与Qwen3-32B相比，哪个模型在PolyMath基准上的表现更好",
+    "chunkName": "Qwen3_Technical_Report-part-50",
+    "questionLabel": ""
+  },
+  {
+    "question": "在意大利语基准测试中，处于思考模式下的 Gemini2.5-Pro 模型的平均得分是多少？",
+    "chunkName": "Qwen3_Technical_Report-part-45",
+    "questionLabel": ""
+  },
+  {
+    "question": "对于 Qwen3-0.6B 模型，在非思考模式下 PolyMath 任务的得分与思考模式相比有何变化",
+    "chunkName": "Qwen3_Technical_Report-part-45",
+    "questionLabel": ""
+  },
+  {
+    "question": "在思考模式下，Qwen3-14B 模型在 INCLUDE 任务上的得分是否高于 QwQ-32B 模型？",
+    "chunkName": "Qwen3_Technical_Report-part-45",
+    "questionLabel": ""
+  },
+  {
+    "question": "非思考模式下的 GPT-4o-2024-1120 模型在 MT-AIME24 任务上获得了多少分？",
+    "chunkName": "Qwen3_Technical_Report-part-45",
+    "questionLabel": ""
+  },
+  {
+    "question": "在意大利语评测的非思考模式中，哪个模型的 Average 平均得分最高，具体数值是多少",
+    "chunkName": "Qwen3_Technical_Report-part-45",
+    "questionLabel": ""
+  },
+  {
+    "question": "对比 Qwen3-8B 模型，其在思考模式与非思考模式下的 MMMLU 任务得分分别是多少？",
+    "chunkName": "Qwen3_Technical_Report-part-45",
+    "questionLabel": ""
+  },
+  {
+    "question": "在思考模式下，Qwen3-235B-A22B 模型在 PolyMath 任务上的表现如何，得分为多少？",
+    "chunkName": "Qwen3_Technical_Report-part-45",
+    "questionLabel": ""
+  },
+  {
+    "question": "非思考模式下的 Gemma-3-27b-IT 模型在 Multi-IF 任务上的得分是多少？",
+    "chunkName": "Qwen3_Technical_Report-part-45",
+    "questionLabel": ""
+  },
+  {
+    "question": "在英文基准测试的思维模式下，Gemini2.5-Pro 的平均得分是多少",
+    "chunkName": "Qwen3_Technical_Report-part-47",
+    "questionLabel": ""
+  },
+  {
+    "question": "对比思维模式与非思维模式，Qwen3-235B-A22B 在 INCLUDE 数据集上的得分变化如何？",
+    "chunkName": "Qwen3_Technical_Report-part-47",
+    "questionLabel": ""
+  },
+  {
+    "question": "在非思维模式下，GPT-4o-2024-1120 在 MT-AIME24 数据集上的具体得分是多少",
+    "chunkName": "Qwen3_Technical_Report-part-47",
+    "questionLabel": ""
+  },
+  {
+    "question": "在日文基准测试的思维模式中，哪个模型在 MLogiQA 数据集上取得了最高分？",
+    "chunkName": "Qwen3_Technical_Report-part-47",
+    "questionLabel": ""
+  },
+  {
+    "question": "非思维模式下的 Qwen3-0.6B 在 PolyMath 数据集上的得分为多少",
+    "chunkName": "Qwen3_Technical_Report-part-47",
+    "questionLabel": ""
+  },
+  {
+    "question": "在日文思维模式下，Qwen3-235B-A22B 的平均得分与 Gemini2.5-Pro 相比有何差异",
+    "chunkName": "Qwen3_Technical_Report-part-47",
+    "questionLabel": ""
+  },
+  {
+    "question": "在韩语基准测试中，Qwen3-235B-A22B 模型的综合得分是多少",
+    "chunkName": "Qwen3_Technical_Report-part-48",
+    "questionLabel": ""
+  },
+  {
+    "question": "对比 Qwen3-0.6B 和 Qwen3-1.7B，哪个模型的第三列分数更高？",
+    "chunkName": "Qwen3_Technical_Report-part-48",
+    "questionLabel": ""
+  },
+  {
+    "question": "在法语基准测试的思考模式下，Qwen3-235B-A22B模型的平均得分是多少",
+    "chunkName": "Qwen3_Technical_Report-part-43",
+    "questionLabel": ""
+  },
+  {
+    "question": "对比思考模式与非思考模式，Gemini2.5-Pro在MT-AIME24任务上的表现有何差异？",
+    "chunkName": "Qwen3_Technical_Report-part-43",
+    "questionLabel": ""
+  },
+  {
+    "question": "在法语多语言指令跟随（Multi-IF）任务中，哪个非思考模式的模型得分最高？",
+    "chunkName": "Qwen3_Technical_Report-part-43",
+    "questionLabel": ""
+  },
+  {
+    "question": "Qwen3系列模型在从0.6B到235B参数规模扩展时，其平均得分呈现怎样的变化趋势？",
+    "chunkName": "Qwen3_Technical_Report-part-43",
+    "questionLabel": ""
+  },
+  {
+    "question": "在非思考模式下，GPT-4o-2024-1120在PolyMath任务中的得分是多少？",
+    "chunkName": "Qwen3_Technical_Report-part-43",
+    "questionLabel": ""
+  },
+  {
+    "question": "比较Qwen3-32B和Qwen3-30B-A3B在MLogiQA逻辑推理任务上的表现，哪款模型更具优势？",
+    "chunkName": "Qwen3_Technical_Report-part-43",
+    "questionLabel": ""
+  },
+  {
+    "question": "在包含INCLUDE任务的评估中，哪些模型在思考模式下取得了85%以上的成绩",
+    "chunkName": "Qwen3_Technical_Report-part-43",
+    "questionLabel": ""
+  },
+  {
+    "question": "在阿拉伯语基准测试中，Qwen3-235B-A22B 的得分是多少",
+    "chunkName": "Qwen3_Technical_Report-part-46",
+    "questionLabel": ""
+  },
+  {
+    "question": "Gemma-3-27b-IT 和 Qwen2.5-72B-Instruct 在第三项指标上的表现分别是多少",
+    "chunkName": "Qwen3_Technical_Report-part-46",
+    "questionLabel": ""
+  },
+  {
+    "question": "在RULER基准测试中，Qwen2.5-72B-Instruct模型在128K上下文长度下的平均性能得分是多少",
+    "chunkName": "Qwen3_Technical_Report-part-41",
+    "questionLabel": ""
+  },
+  {
+    "question": "非思考模式下，Qwen3-14B模型在RULER基准测试中的平均分（Avg.）是多少？",
+    "chunkName": "Qwen3_Technical_Report-part-41",
+    "questionLabel": ""
+  },
+  {
+    "question": "为了支持长度外推，文中提到使用了哪种技术以及具体的缩放因子是多少？",
+    "chunkName": "Qwen3_Technical_Report-part-41",
+    "questionLabel": ""
+  },
+  {
+    "question": "在思考模式评估长上下文能力时，为了缓解极长输入上的过度冗长推理，思维预算被设置为多少token？",
+    "chunkName": "Qwen3_Technical_Report-part-41",
+    "questionLabel": ""
+  },
+  {
+    "question": "对比非思考模式和思考模式，Qwen3-32B模型在128K上下文长度下的性能得分分别是多少",
+    "chunkName": "Qwen3_Technical_Report-part-41",
+    "questionLabel": ""
+  },
+  {
+    "question": "Qwen2.5系列模型中，哪一款模型在4K上下文长度下的RULER基准测试得分最高",
+    "chunkName": "Qwen3_Technical_Report-part-41",
+    "questionLabel": ""
+  },
+  {
+    "question": "在思考模式下，Qwen3-235B-A22B模型在64K上下文长度下的得分是多少？",
+    "chunkName": "Qwen3_Technical_Report-part-41",
+    "questionLabel": ""
+  },
+  {
+    "question": "Qwen3-4B模型在非思考模式与思考模式下，于128K上下文长度处的性能表现有何差异",
+    "chunkName": "Qwen3_Technical_Report-part-41",
+    "questionLabel": ""
+  },
+  {
+    "question": "在葡萄牙语基准测试中，Qwen3-235B-A22B模型的具体得分是多少",
+    "chunkName": "Qwen3_Technical_Report-part-44",
+    "questionLabel": ""
+  },
+  {
+    "question": "对比Qwen3系列不同参数规模的模型，Qwen3-4B与Qwen3-1.7B的得分差异如何？",
+    "chunkName": "Qwen3_Technical_Report-part-44",
+    "questionLabel": ""
+  },
+  {
+    "question": "在非思考模式下，Qwen3 在长上下文处理任务中的表现与同尺寸的 Qwen2.5 模型相比如何",
+    "chunkName": "Qwen3_Technical_Report-part-42",
+    "questionLabel": ""
+  },
+  {
+    "question": "为什么在思考模式下，模型在检索任务中的性能会出现轻微下降？",
+    "chunkName": "Qwen3_Technical_Report-part-42",
+    "questionLabel": ""
+  },
+  {
+    "question": "针对长上下文能力在思考模式下的不足，开发团队制定了怎样的未来改进计划？",
+    "chunkName": "Qwen3_Technical_Report-part-42",
+    "questionLabel": ""
+  },
+  {
+    "question": "在评估多语言能力时，Belebele 基准测试中使用了多少个受支持的语言进行评测？",
+    "chunkName": "Qwen3_Technical_Report-part-42",
+    "questionLabel": ""
+  },
+  {
+    "question": "根据 Belebele 基准测试结果，Qwen3 与 Gemma 模型及 Qwen2.5 模型的性能对比情况是怎样的？",
+    "chunkName": "Qwen3_Technical_Report-part-42",
+    "questionLabel": ""
+  },
+  {
+    "question": "文中提到的多语言基准测试涵盖了哪些具体的语言种类？",
+    "chunkName": "Qwen3_Technical_Report-part-42",
+    "questionLabel": ""
+  },
+  {
+    "question": "Qwen3在思维模式和非思维模式下，Stage 4训练阶段对哪些能力进行了进一步巩固",
+    "chunkName": "Qwen3_Technical_Report-part-39",
+    "questionLabel": ""
+  },
+  {
+    "question": "ThinkFollow分数提升至98.9意味着模型具备了什么关键特性",
+    "chunkName": "Qwen3_Technical_Report-part-39",
+    "questionLabel": ""
+  },
+  {
+    "question": "为什么在知识、STEM、数学和编程等任务上，思维模式融合与通用强化学习未能带来显著提升？",
+    "chunkName": "Qwen3_Technical_Report-part-39",
+    "questionLabel": ""
+  },
+  {
+    "question": "针对AIME'24和Live CodeBench等高难度任务，经过特定训练阶段后模型性能出现了何种变化？",
+    "chunkName": "Qwen3_Technical_Report-part-39",
+    "questionLabel": ""
+  },
+  {
+    "question": "研究人员推测导致模型在处理复杂问题时的专业能力提升受限的原因是什么",
+    "chunkName": "Qwen3_Technical_Report-part-39",
+    "questionLabel": ""
+  },
+  {
+    "question": "在Qwen3的开发过程中，团队为何选择接受这种性能权衡以换取整体多功能性",
+    "chunkName": "Qwen3_Technical_Report-part-39",
+    "questionLabel": ""
+  },
+  {
+    "question": "Qwen3的双模式设计允许用户如何动态管理用于复杂思考任务的令牌数量",
+    "chunkName": "Qwen3_Technical_Report-part-39",
+    "questionLabel": ""
+  },
+  {
+    "question": "Qwen3预训练数据集包含多少令牌，支持多少种语言和方言的理解与生成？",
+    "chunkName": "Qwen3_Technical_Report-part-39",
+    "questionLabel": ""
+  },
+  {
+    "question": "Qwen3在哪些标准基准测试中展现了强大的性能表现？",
+    "chunkName": "Qwen3_Technical_Report-part-39",
+    "questionLabel": ""
+  },
+  {
+    "question": "未来研究计划在提升预训练质量方面将采取哪些具体措施？",
+    "chunkName": "Qwen3_Technical_Report-part-39",
+    "questionLabel": ""
+  },
+  {
+    "question": "在强化学习方面计划增加哪些计算资源重点",
+    "chunkName": "Qwen3_Technical_Report-part-40",
+    "questionLabel": ""
+  },
+  {
+    "question": "基于代理的强化学习系统主要从什么来源进行学习",
+    "chunkName": "Qwen3_Technical_Report-part-40",
+    "questionLabel": ""
+  },
+  {
+    "question": "增强计算资源旨在构建能够解决哪类复杂任务的智能体",
+    "chunkName": "Qwen3_Technical_Report-part-40",
+    "questionLabel": ""
+  },
+  {
+    "question": "这类智能体需要具备处理哪种时间扩展需求的能力",
+    "chunkName": "Qwen3_Technical_Report-part-40",
+    "questionLabel": ""
+  },
+  {
+    "question": "An Yang 属于核心贡献者还是普通贡献者",
+    "chunkName": "Qwen3_Technical_Report-part-40",
+    "questionLabel": ""
+  },
+  {
+    "question": "Fei Huang 在作者列表中担任什么角色？",
+    "chunkName": "Qwen3_Technical_Report-part-40",
+    "questionLabel": ""
+  },
+  {
+    "question": "Bei Chen 是否被列为核心贡献者",
+    "chunkName": "Qwen3_Technical_Report-part-40",
+    "questionLabel": ""
+  },
+  {
+    "question": "Junyang Lin 在文本中被归类为哪一类作者",
+    "chunkName": "Qwen3_Technical_Report-part-40",
+    "questionLabel": ""
+  },
+  {
+    "question": "ThinkFollow测试主要评估模型在多轮对话中处理随机插入的/think和/no think标记的能力是什么",
+    "chunkName": "Qwen3_Technical_Report-part-38",
+    "questionLabel": ""
+  },
+  {
+    "question": "ToolUse评估过程具体考察了模型在哪些类型的工具调用流程中的稳定性？",
+    "chunkName": "Qwen3_Technical_Report-part-38",
+    "questionLabel": ""
+  },
+  {
+    "question": "ToolUse的评分标准包含哪三个方面的准确性指标",
+    "chunkName": "Qwen3_Technical_Report-part-38",
+    "questionLabel": ""
+  },
+  {
+    "question": "根据表格数据，Qwen3-32B在Stage 4 General RL阶段中，IFEval strict prompt的非思考模式得分相比前一阶段提升了多少分？",
+    "chunkName": "Qwen3_Technical_Report-part-38",
+    "questionLabel": ""
+  },
+  {
+    "question": "在Agent类别下，ToolUse*基准测试在Stage 3 Thinking Mode Fusion阶段的非思考模式得分为多少",
+    "chunkName": "Qwen3_Technical_Report-part-38",
+    "questionLabel": ""
+  },
+  {
+    "question": "LiveBench 2024-11-25基准测试中，Stage 4 General RL的思考模式得分是多少",
+    "chunkName": "Qwen3_Technical_Report-part-38",
+    "questionLabel": ""
+  },
+  {
+    "question": "CounterFactQA*数据集在Stage 3 Thinking Mode Fusion阶段，思考模式的得分相比Stage 2 Reasoning RL阶段提高了多少",
+    "chunkName": "Qwen3_Technical_Report-part-38",
+    "questionLabel": ""
+  },
+  {
+    "question": "Math & Coding类别下的AIME’24测试中，Stage 4 General RL的非思考模式得分是多少",
+    "chunkName": "Qwen3_Technical_Report-part-38",
+    "questionLabel": ""
+  },
+  {
+    "question": "Multi-IF基准测试在Stage 4 General RL阶段，非思考模式的得分较Stage 3阶段增加了多少？",
+    "chunkName": "Qwen3_Technical_Report-part-38",
+    "questionLabel": ""
+  },
+  {
+    "question": "Knowledge & STEM类别中的MMLU-Redux测试显示，Stage 4 General RL的非思考模式得分相较于Stage 3阶段是上升还是下降，变化幅度是多少",
+    "chunkName": "Qwen3_Technical_Report-part-38",
+    "questionLabel": ""
+  },
+  {
+    "question": "在针对数学和代码相关查询的对比中，蒸馏方法相比强化学习在GPU小时消耗上有什么显著优势",
+    "chunkName": "Qwen3_Technical_Report-part-37",
+    "questionLabel": ""
+  },
+  {
+    "question": "从教师模型logits进行蒸馏如何影响学生模型的探索空间和推理潜力？",
+    "chunkName": "Qwen3_Technical_Report-part-37",
+    "questionLabel": ""
+  },
+  {
+    "question": "在AIME’24和AIME’25基准测试中，蒸馏后的初始检查点在pass@64分数上有何变化，而强化学习是否带来了同样的提升",
+    "chunkName": "Qwen3_Technical_Report-part-37",
+    "questionLabel": ""
+  },
+  {
+    "question": "根据表21的数据，On-policy Distillation方法在MATH500数据集上的得分是多少",
+    "chunkName": "Qwen3_Technical_Report-part-37",
+    "questionLabel": ""
+  },
+  {
+    "question": "Off-policy Distillation与Reinforcement Learning结合的方法（+ Reinforcement Learning）在LiveCodeBench v5上的表现如何？",
+    "chunkName": "Qwen3_Technical_Report-part-37",
+    "questionLabel": ""
+  },
+  {
+    "question": "On-policy Distillation方法消耗的GPU小时数约为多少，与其他两种方法相比有何不同",
+    "chunkName": "Qwen3_Technical_Report-part-37",
+    "questionLabel": ""
+  },
+  {
+    "question": "CounterFactQA基准测试旨在评估模型在哪方面的能力？",
+    "chunkName": "Qwen3_Technical_Report-part-37",
+    "questionLabel": ""
+  },
+  {
+    "question": "LengthCtrl基准测试包含哪些类型的任务，其最终评分依据是什么？",
+    "chunkName": "Qwen3_Technical_Report-part-37",
+    "questionLabel": ""
+  },
+  {
+    "question": "Qwen3-1.7B和Qwen3-0.6B在思考模式下与哪些模型进行了对比",
+    "chunkName": "Qwen3_Technical_Report-part-36",
+    "questionLabel": ""
+  },
+  {
+    "question": "Qwen3边缘侧模型的性能表现如何，是否优于参数量更多的基线模型",
+    "chunkName": "Qwen3_Technical_Report-part-36",
+    "questionLabel": ""
+  },
+  {
+    "question": "Strong-to-Weak Distillation方法在构建轻量级Qwen3模型时带来了什么主要优势",
+    "chunkName": "Qwen3_Technical_Report-part-36",
+    "questionLabel": ""
+  },
+  {
+    "question": "Qwen3-8B和Qwen3-4B的评估结果分别展示在哪些表格中？",
+    "chunkName": "Qwen3_Technical_Report-part-36",
+    "questionLabel": ""
+  },
+  {
+    "question": "为了验证思考预算的有效性，研究人员在哪些领域的基准测试上调整了分配的思考预算？",
+    "chunkName": "Qwen3_Technical_Report-part-36",
+    "questionLabel": ""
+  },
+  {
+    "question": "随着分配的思考预算增加，Qwen3模型的性能呈现出怎样的变化趋势",
+    "chunkName": "Qwen3_Technical_Report-part-36",
+    "questionLabel": ""
+  },
+  {
+    "question": "如果将输出长度进一步扩展到32K以上，预计会对Qwen3模型的性能产生什么影响？",
+    "chunkName": "Qwen3_Technical_Report-part-36",
+    "questionLabel": ""
+  },
+  {
+    "question": "研究中通过比较哪两种方法的计算成本和性能来评估在线策略蒸馏的有效性和效率",
+    "chunkName": "Qwen3_Technical_Report-part-36",
+    "questionLabel": ""
+  },
+  {
+    "question": "在一般任务中，Qwen3-1.7B模型在LiveBench 2024-11-25基准测试上的得分是多少？",
+    "chunkName": "Qwen3_Technical_Report-part-35",
+    "questionLabel": ""
+  },
+  {
+    "question": "对比Phi-4-mini和Qwen3-1.7B，哪个模型在GPQA-Diamond基准测试上表现更好",
+    "chunkName": "Qwen3_Technical_Report-part-35",
+    "questionLabel": ""
+  },
+  {
+    "question": "在数学与文本推理任务中，Qwen3-1.7B在AIME'24基准测试上的具体分数是多少",
+    "chunkName": "Qwen3_Technical_Report-part-35",
+    "questionLabel": ""
+  },
+  {
+    "question": "根据多语言任务数据，Qwen2.5-3B-Instruct在INCLUDE基准测试上的得分与Qwen3-1.7B相比如何",
+    "chunkName": "Qwen3_Technical_Report-part-35",
+    "questionLabel": ""
+  },
+  {
+    "question": "在代理与编码任务中，Qwen3-1.7B在BFCL v3基准测试上的成绩是多少",
+    "chunkName": "Qwen3_Technical_Report-part-35",
+    "questionLabel": ""
+  },
+  {
+    "question": "Qwen3系列模型通过什么方法展示了其轻量化模型具备深度推理能力的有效性？",
+    "chunkName": "Qwen3_Technical_Report-part-35",
+    "questionLabel": ""
+  },
+  {
+    "question": "Qwen3-30B-A3B和Qwen3-14B（非思考模式）相较于之前的Qwen2.5-32B-Instruct模型有什么主要优势",
+    "chunkName": "Qwen3_Technical_Report-part-35",
+    "questionLabel": ""
+  },
+  {
+    "question": "在创意写作任务中，Qwen3-1.7B的WritingBench得分是否高于Gemma-3-1B-IT",
+    "chunkName": "Qwen3_Technical_Report-part-35",
+    "questionLabel": ""
+  },
+  {
+    "question": "Qwen3-1.7B（Thinking模式）在AutoLogi基准测试中的得分是多少",
+    "chunkName": "Qwen3_Technical_Report-part-34",
+    "questionLabel": ""
+  },
+  {
+    "question": "在非思考模式下，哪款模型在CodeForces排名中取得了最高的百分位成绩？",
+    "chunkName": "Qwen3_Technical_Report-part-34",
+    "questionLabel": ""
+  },
+  {
+    "question": "Qwen3-0.6B（Non-thinking模式）在BFCL v3任务上的表现优于哪个蒸馏模型？",
+    "chunkName": "Qwen3_Technical_Report-part-34",
+    "questionLabel": ""
+  },
+  {
+    "question": "对比Qwen3-1.7B和DeepSeek-R1-Distill-Llama-8B，两者在MMLU-Redux通用任务上的得分分别是多少",
+    "chunkName": "Qwen3_Technical_Report-part-34",
+    "questionLabel": ""
+  },
+  {
+    "question": "在Multilingual Tasks类别中，Qwen3-1.7B（Thinking模式）的INCLUDE得分是否高于其MT-AIME2024得分？",
+    "chunkName": "Qwen3_Technical_Report-part-34",
+    "questionLabel": ""
+  },
+  {
+    "question": "Table 19显示，Qwen3-1.7B在LiveCodeBench v5上的分数相较于Qwen3-0.6B提高了多少分",
+    "chunkName": "Qwen3_Technical_Report-part-34",
+    "questionLabel": ""
+  },
+  {
+    "question": "在非推理模型对比中，Qwen3-0.6B在ZebraLogic逻辑推理任务上获得了怎样的分数？",
+    "chunkName": "Qwen3_Technical_Report-part-34",
+    "questionLabel": ""
+  },
+  {
+    "question": "在Qwen3-8B与其他非推理基线模型的对比中，其架构类型是什么",
+    "chunkName": "Qwen3_Technical_Report-part-33",
+    "questionLabel": ""
+  },
+  {
+    "question": "Qwen3-4B和Qwen3-8B的激活参数数量和总参数数量分别是多少",
+    "chunkName": "Qwen3_Technical_Report-part-33",
+    "questionLabel": ""
+  },
+  {
+    "question": "在General Tasks类别下，Qwen3-8B在LiveBench 2024-11-25测试中的得分是多少？",
+    "chunkName": "Qwen3_Technical_Report-part-33",
+    "questionLabel": ""
+  },
+  {
+    "question": "比较Qwen3-8B与LLaMA-3.1-8B-Instruct在Alignment Tasks中的IFEval strict prompt得分。",
+    "chunkName": "Qwen3_Technical_Report-part-33",
+    "questionLabel": ""
+  },
+  {
+    "question": "在Math & Text Reasoning任务中，Qwen3-8B在AIME’24测试上的表现如何",
+    "chunkName": "Qwen3_Technical_Report-part-33",
+    "questionLabel": ""
+  },
+  {
+    "question": "Qwen3-4B在GPQA-Diamond基准测试中取得了什么分数",
+    "chunkName": "Qwen3_Technical_Report-part-33",
+    "questionLabel": ""
+  },
+  {
+    "question": "在 Qwen3-32B (Thinking) 与其他推理基线模型的对比中，哪些模型属于稠密（Dense）架构？",
+    "chunkName": "Qwen3_Technical_Report-part-30",
+    "questionLabel": ""
+  },
+  {
+    "question": "根据表格数据，Qwen3-32B (Thinking) 在 GPQA-Diamond 基准测试中的得分是多少",
+    "chunkName": "Qwen3_Technical_Report-part-30",
+    "questionLabel": ""
+  },
+  {
+    "question": "在 Agent & Coding 任务类别中，哪个模型在 BFCL v3 测试上取得了最高分",
+    "chunkName": "Qwen3_Technical_Report-part-30",
+    "questionLabel": ""
+  },
+  {
+    "question": "Qwen3-32B (Non-thinking) 与 LLaMA-4-Scout 相比，在 MMLU-Redux 测试上的表现如何",
+    "chunkName": "Qwen3_Technical_Report-part-30",
+    "questionLabel": ""
+  },
+  {
+    "question": "在多语言任务（Multilingual Tasks）中，Qwen3-32B (Thinking) 在 MT-AIME2024 测试上的得分是多少？",
+    "chunkName": "Qwen3_Technical_Report-part-30",
+    "questionLabel": ""
+  },
+  {
+    "question": "GPT-4o-mini-2024-07-18 采用的是哪种架构类型？",
+    "chunkName": "Qwen3_Technical_Report-part-30",
+    "questionLabel": ""
+  },
+  {
+    "question": "在 Math & Text Reasoning 类别下，Qwen2.5-72B-Instruct 在 AIME'24 测试中的得分是多少",
+    "chunkName": "Qwen3_Technical_Report-part-30",
+    "questionLabel": ""
+  },
+  {
+    "question": "对比 Qwen3-32B (Thinking) 和 Qwen3-32B (Non-thinking)，哪一个在 Arena-Hard 测试中获得了更高的分数",
+    "chunkName": "Qwen3_Technical_Report-part-30",
+    "questionLabel": ""
+  },
+  {
+    "question": "DeepSeek-R1-Distill-Llama-70B 的激活参数量（# Activated Params）是多少",
+    "chunkName": "Qwen3_Technical_Report-part-30",
+    "questionLabel": ""
+  },
+  {
+    "question": "在 AlignBench v1.1 测试中，Qwen3-32B (Non-thinking) 的得分是否高于 Qwen2.5-72B-Instruct？",
+    "chunkName": "Qwen3_Technical_Report-part-30",
+    "questionLabel": ""
+  },
+  {
+    "question": "Qwen3-30B-A3B模型在架构类型上与Phi-4、Gemma-3等模型有何不同",
+    "chunkName": "Qwen3_Technical_Report-part-32",
+    "questionLabel": ""
+  },
+  {
+    "question": "根据提供的数据，哪个模型在C-Eval基准测试中取得了最高的分数",
+    "chunkName": "Qwen3_Technical_Report-part-32",
+    "questionLabel": ""
+  },
+  {
+    "question": "Qwen3-14B模型在IFEval strict prompt任务中的表现如何？",
+    "chunkName": "Qwen3_Technical_Report-part-32",
+    "questionLabel": ""
+  },
+  {
+    "question": "对比Qwen3-8B与DeepSeek-R1-Distill-Qwen-32B，两者在Arena-Hard任务上的得分分别是多少",
+    "chunkName": "Qwen3_Technical_Report-part-32",
+    "questionLabel": ""
+  },
+  {
+    "question": "在LiveCodeBench v5代码生成任务中，Qwen3-30B-A3B的得分是多少？",
+    "chunkName": "Qwen3_Technical_Report-part-32",
+    "questionLabel": ""
+  },
+  {
+    "question": "Qwen3-4B模型在MMLU-Redux通用任务中的具体得分是多少",
+    "chunkName": "Qwen3_Technical_Report-part-32",
+    "questionLabel": ""
+  },
+  {
+    "question": "哪两个模型在GPQA-Diamond推理任务上的得分均为54.8",
+    "chunkName": "Qwen3_Technical_Report-part-32",
+    "questionLabel": ""
+  },
+  {
+    "question": "Qwen3-8B模型在Creative Writing v3创意写作任务中的表现是否优于DeepSeek-R1-Distill-Qwen-14B",
+    "chunkName": "Qwen3_Technical_Report-part-32",
+    "questionLabel": ""
+  },
+  {
+    "question": "Qwen3-30B-A3B模型在架构类型、激活参数数量和总参数数量上分别具有什么特征",
+    "chunkName": "Qwen3_Technical_Report-part-31",
+    "questionLabel": ""
+  },
+  {
+    "question": "在Agent & Coding任务中，哪个模型的CodeForces评分（Rating）最高，具体数值是多少？",
+    "chunkName": "Qwen3_Technical_Report-part-31",
+    "questionLabel": ""
+  },
+  {
+    "question": "对比DeepSeek-R1-Distill-Qwen-32B与QwQ-32B，哪一个在LiveBench 2024-11-25测试中的表现更优",
+    "chunkName": "Qwen3_Technical_Report-part-31",
+    "questionLabel": ""
+  },
+  {
+    "question": "在多语言任务（Multilingual Tasks）中，Qwen3-14B在MLogiQA基准测试上的得分是多少？",
+    "chunkName": "Qwen3_Technical_Report-part-31",
+    "questionLabel": ""
+  },
+  {
+    "question": "在数学推理方面，Qwen3-30B-A3B在AIME'25测试中的得分相较于AIME'24有何变化趋势",
+    "chunkName": "Qwen3_Technical_Report-part-31",
+    "questionLabel": ""
+  },
+  {
+    "question": "针对IFEval strict prompt这一对齐任务，四个对比模型中哪一个取得了最高的分数？",
+    "chunkName": "Qwen3_Technical_Report-part-31",
+    "questionLabel": ""
+  },
+  {
+    "question": "在非思考模式（Non-thinking）的对比中，Qwen3-14B在ZebraLogic逻辑推理任务上的得分是多少？",
+    "chunkName": "Qwen3_Technical_Report-part-31",
+    "questionLabel": ""
+  },
+  {
+    "question": "Qwen3-235B-A22B在GPQA-Diamond基准测试中取得了多少分？",
+    "chunkName": "Qwen3_Technical_Report-part-27",
+    "questionLabel": ""
+  },
+  {
+    "question": "哪款模型在Arena-Hard任务上的得分最高，具体数值是多少",
+    "chunkName": "Qwen3_Technical_Report-part-27",
+    "questionLabel": ""
+  },
+  {
+    "question": "Qwen3-235B-A22B在CodeForces竞赛中的Rating和Percentile分别是多少？",
+    "chunkName": "Qwen3_Technical_Report-part-27",
+    "questionLabel": ""
+  },
+  {
+    "question": "对比GPT-4o和DeepSeek-V3，两者在MMLU-Redux测试中的表现有何差异",
+    "chunkName": "Qwen3_Technical_Report-part-27",
+    "questionLabel": ""
+  },
+  {
+    "question": "Qwen3-235B-A22B在MT-AIME2024多语言数学推理任务中的成绩是多少",
+    "chunkName": "Qwen3_Technical_Report-part-27",
+    "questionLabel": ""
+  },
+  {
+    "question": "在IFEval strict prompt对齐任务中，LLaMA-4-Maverick的得分是否高于GPT-4o",
+    "chunkName": "Qwen3_Technical_Report-part-27",
+    "questionLabel": ""
+  },
+  {
+    "question": "Qwen3-235B-A22B在ZebraLogic逻辑推理测试中获得的分数是多少？",
+    "chunkName": "Qwen3_Technical_Report-part-27",
+    "questionLabel": ""
+  },
+  {
+    "question": "根据评估结果总结，Qwen3-235B-A22B相较于哪些开源基线模型展现了更优的综合性能",
+    "chunkName": "Qwen3_Technical_Report-part-27",
+    "questionLabel": ""
+  },
+  {
+    "question": "DeepSeek-V3在C-Eval中文评测中的得分是多少，与Qwen3-235B-A22B相比如何？",
+    "chunkName": "Qwen3_Technical_Report-part-27",
+    "questionLabel": ""
+  },
+  {
+    "question": "在AutoLogi自动逻辑推理任务中，Qwen3-235B-A22B以多少分位居榜首",
+    "chunkName": "Qwen3_Technical_Report-part-27",
+    "questionLabel": ""
+  },
+  {
+    "question": "Qwen3-32B在思维模式下选择了哪些模型作为基线进行对比？",
+    "chunkName": "Qwen3_Technical_Report-part-29",
+    "questionLabel": ""
+  },
+  {
+    "question": "在非思维模式下，Qwen3-32B的评估基线包括哪些具体模型？",
+    "chunkName": "Qwen3_Technical_Report-part-29",
+    "questionLabel": ""
+  },
+  {
+    "question": "根据评测结果，Qwen3-32B（思维模式）在多少个基准测试中优于QwQ-32B",
+    "chunkName": "Qwen3_Technical_Report-part-29",
+    "questionLabel": ""
+  },
+  {
+    "question": "Qwen3-32B（思维模式）与OpenAI-o3-mini (medium)相比，在哪些方面表现更优",
+    "chunkName": "Qwen3_Technical_Report-part-29",
+    "questionLabel": ""
+  },
+  {
+    "question": "Qwen3-32B（非思维模式）在与Qwen2.5-72B-Instruct的对比中，在哪些任务类型上具有显著优势",
+    "chunkName": "Qwen3_Technical_Report-part-29",
+    "questionLabel": ""
+  },
+  {
+    "question": "Qwen3-30B-A3B和Qwen3-14B在思维模式下主要与哪两个模型进行了性能比较",
+    "chunkName": "Qwen3_Technical_Report-part-29",
+    "questionLabel": ""
+  },
+  {
+    "question": "针对Qwen3-30B-A3B和Qwen3-14B的非思维模式评估，选取了哪些开源或竞品模型作为基线？",
+    "chunkName": "Qwen3_Technical_Report-part-29",
+    "questionLabel": ""
+  },
+  {
+    "question": "Qwen3-30B-A3B相较于QwQ-32B，在实现可比性能的同时具备什么硬件或规模上的优势",
+    "chunkName": "Qwen3_Technical_Report-part-29",
+    "questionLabel": ""
+  },
+  {
+    "question": "Qwen3-32B在非思考模式下的性能表现如何，与之前的旗舰模型相比有何优势",
+    "chunkName": "Qwen3_Technical_Report-part-28",
+    "questionLabel": ""
+  },
+  {
+    "question": "轻量级模型如Qwen3-30B-A3B和Qwen3-14B为何能超越参数量相近或更大的开源模型",
+    "chunkName": "Qwen3_Technical_Report-part-28",
+    "questionLabel": ""
+  },
+  {
+    "question": "评估Qwen3-235B-A22B思考模式时，选取了哪些闭源模型作为推理基准",
+    "chunkName": "Qwen3_Technical_Report-part-28",
+    "questionLabel": ""
+  },
+  {
+    "question": "评估Qwen3-235B-A22B非思考模式时，选取了哪些模型作为非推理基准？",
+    "chunkName": "Qwen3_Technical_Report-part-28",
+    "questionLabel": ""
+  },
+  {
+    "question": "Qwen3-235B-A22B在激活参数和总参数比例较低的情况下，在哪些具体任务领域展现了最先进的推理能力",
+    "chunkName": "Qwen3_Technical_Report-part-28",
+    "questionLabel": ""
+  },
+  {
+    "question": "Qwen3-235B-A22B（思考模式）与DeepSeek-R1在基准测试中的对比结果如何",
+    "chunkName": "Qwen3_Technical_Report-part-28",
+    "questionLabel": ""
+  },
+  {
+    "question": "Qwen3-235B-A22B的推理能力对缩小开源与闭源模型之间的差距起到了什么作用",
+    "chunkName": "Qwen3_Technical_Report-part-28",
+    "questionLabel": ""
+  },
+  {
+    "question": "Qwen3-235B-A22B（非思考模式）相较于DeepSeek-V3、LLaMA-4-Maverick等领先开源模型的表现如何",
+    "chunkName": "Qwen3_Technical_Report-part-28",
+    "questionLabel": ""
+  },
+  {
+    "question": "在 LiveCodeBench 的 thinking 模式下，为了允许模型更自由地思考，对官方推荐的 prompt 模板做了什么具体调整",
+    "chunkName": "Qwen3_Technical_Report-part-25",
+    "questionLabel": ""
+  },
+  {
+    "question": "为了评估模型与竞赛编程专家之间的性能差距，使用了哪个平台来计算 Elo 评分",
+    "chunkName": "Qwen3_Technical_Report-part-25",
+    "questionLabel": ""
+  },
+  {
+    "question": "在该基准测试中，每个问题通过生成多少次独立的推理尝试来解决？",
+    "chunkName": "Qwen3_Technical_Report-part-25",
+    "questionLabel": ""
+  },
+  {
+    "question": "多语言能力的评估涵盖了哪四类任务？",
+    "chunkName": "Qwen3_Technical_Report-part-25",
+    "questionLabel": ""
+  },
+  {
+    "question": "指令跟随（Instruction following）任务使用什么工具进行评估，该工具聚焦于多少种关键语言",
+    "chunkName": "Qwen3_Technical_Report-part-25",
+    "questionLabel": ""
+  },
+  {
+    "question": "知识评估分为哪两种类型，分别对应哪些基准测试及覆盖的语言数量",
+    "chunkName": "Qwen3_Technical_Report-part-25",
+    "questionLabel": ""
+  },
+  {
+    "question": "为了提高评估效率，在 INCLUDE 和 MMMLU 这两个知识基准测试中采样了原始数据的多少比例",
+    "chunkName": "Qwen3_Technical_Report-part-25",
+    "questionLabel": ""
+  },
+  {
+    "question": "数学任务采用了哪两个基准测试，它们分别涵盖了多少种语言",
+    "chunkName": "Qwen3_Technical_Report-part-25",
+    "questionLabel": ""
+  },
+  {
+    "question": "逻辑推理任务使用的是哪个基准测试，它覆盖了多少种语言？",
+    "chunkName": "Qwen3_Technical_Report-part-25",
+    "questionLabel": ""
+  },
+  {
+    "question": "对于处于 thinking 模式的所有 Qwen3 模型，配置的采样温度、top-p 值和 top-k 值分别是多少",
+    "chunkName": "Qwen3_Technical_Report-part-25",
+    "questionLabel": ""
+  },
+  {
+    "question": "在 Creative Writing v3 和 WritingBench 评估中，应用 presence penalty 的目的是什么，其数值设为多少",
+    "chunkName": "Qwen3_Technical_Report-part-25",
+    "questionLabel": ""
+  },
+  {
+    "question": "非 thinking 模式的 Qwen3 模型在采样超参数配置上有哪些具体数值设定",
+    "chunkName": "Qwen3_Technical_Report-part-25",
+    "questionLabel": ""
+  },
+  {
+    "question": "Qwen3-235B-A22B模型的架构类型及其激活参数和总参数量分别是多少？",
+    "chunkName": "Qwen3_Technical_Report-part-26",
+    "questionLabel": ""
+  },
+  {
+    "question": "在GPQA-Diamond测试中，哪个模型取得了最高分数，具体数值是多少",
+    "chunkName": "Qwen3_Technical_Report-part-26",
+    "questionLabel": ""
+  },
+  {
+    "question": "对比OpenAI-o1和DeepSeek-R1，哪一个模型在AIME'24数学推理任务上的表现更优",
+    "chunkName": "Qwen3_Technical_Report-part-26",
+    "questionLabel": ""
+  },
+  {
+    "question": "根据CodeForces的评估数据，Qwen3-235B-A22B的评分和百分位排名分别是多少？",
+    "chunkName": "Qwen3_Technical_Report-part-26",
+    "questionLabel": ""
+  },
+  {
+    "question": "在多语言任务INCLUDE中，Grok-3-Beta (Think)与Gemini2.5-Pro相比，谁的表现更好",
+    "chunkName": "Qwen3_Technical_Report-part-26",
+    "questionLabel": ""
+  },
+  {
+    "question": "在通用任务评估中，针对 GPQA-Diamond 基准测试采用了怎样的采样策略来计算最终准确率？",
+    "chunkName": "Qwen3_Technical_Report-part-24",
+    "questionLabel": ""
+  },
+  {
+    "question": "为了评估模型与人类偏好的对齐程度，文中使用了哪些专门针对指令遵循和写作任务的基准测试",
+    "chunkName": "Qwen3_Technical_Report-part-24",
+    "questionLabel": ""
+  },
+  {
+    "question": "Arena-Hard 和 AlignBench v1.1 主要用于衡量模型在哪方面的性能表现",
+    "chunkName": "Qwen3_Technical_Report-part-24",
+    "questionLabel": ""
+  },
+  {
+    "question": "Creative Writing V3 和 WritingBench 这两个基准测试旨在评估模型的哪些核心能力",
+    "chunkName": "Qwen3_Technical_Report-part-24",
+    "questionLabel": ""
+  },
+  {
+    "question": "在数学与逻辑推理评估中，AIME 2024 和 AIME 2025 的题目构成及评分方法是什么",
+    "chunkName": "Qwen3_Technical_Report-part-24",
+    "questionLabel": ""
+  },
+  {
+    "question": "ZebraLogic 和 AutoLogi 被用于评估模型哪一特定领域的推理技能",
+    "chunkName": "Qwen3_Technical_Report-part-24",
+    "questionLabel": ""
+  },
+  {
+    "question": "在代理与编码任务评估中，Qwen3 模型在 BFCL v3 上使用了何种格式进行评测？",
+    "chunkName": "Qwen3_Technical_Report-part-24",
+    "questionLabel": ""
+  },
+  {
+    "question": "为了实现多轮对话评估，文中提到使用 yarn 将模型部署到了多大的上下文长度？",
+    "chunkName": "Qwen3_Technical_Report-part-24",
+    "questionLabel": ""
+  },
+  {
+    "question": "对于未在 BFCL 排行榜上报告的基线模型，文中采取了什么策略来确定其分数？",
+    "chunkName": "Qwen3_Technical_Report-part-24",
+    "questionLabel": ""
+  },
+  {
+    "question": "当模型的思考过程达到用户定义的阈值时，系统会执行什么操作来终止思考？",
+    "chunkName": "Qwen3_Technical_Report-part-21",
+    "questionLabel": ""
+  },
+  {
+    "question": "插入停止思考指令后，模型如何生成最终响应",
+    "chunkName": "Qwen3_Technical_Report-part-21",
+    "questionLabel": ""
+  },
+  {
+    "question": "模型能够自然涌现出在特定指令下停止思考并直接给出解决方案的能力，这是应用了什么技术的结果？",
+    "chunkName": "Qwen3_Technical_Report-part-21",
+    "questionLabel": ""
+  },
+  {
+    "question": "通用强化学习（General RL）阶段的主要目标是什么？",
+    "chunkName": "Qwen3_Technical_Report-part-21",
+    "questionLabel": ""
+  },
+  {
+    "question": "为了促进通用能力的提升，建立了覆盖多少个不同任务的奖励系统",
+    "chunkName": "Qwen3_Technical_Report-part-21",
+    "questionLabel": ""
+  },
+  {
+    "question": "指令遵循（Instruction Following）能力要求模型在响应用户请求时满足哪些方面的具体需求？",
+    "chunkName": "Qwen3_Technical_Report-part-21",
+    "questionLabel": ""
+  },
+  {
+    "question": "格式遵循（Format Following）能力要求模型如何处理/think和/no think标志以及<think>和</think>标记？",
+    "chunkName": "Qwen3_Technical_Report-part-21",
+    "questionLabel": ""
+  },
+  {
+    "question": "偏好对齐（Preference Alignment）主要针对哪类查询进行优化，旨在改善用户的哪些体验？",
+    "chunkName": "Qwen3_Technical_Report-part-21",
+    "questionLabel": ""
+  },
+  {
+    "question": "智能体能力（Agent Ability）训练涉及模型通过什么方式调用工具，以及在强化学习展开过程中允许进行什么样的交互",
+    "chunkName": "Qwen3_Technical_Report-part-21",
+    "questionLabel": ""
+  },
+  {
+    "question": "蒸馏过程分为哪两个主要阶段",
+    "chunkName": "Qwen3_Technical_Report-part-23",
+    "questionLabel": ""
+  },
+  {
+    "question": "离策略蒸馏（Off-policy Distillation）的主要目的是什么？",
+    "chunkName": "Qwen3_Technical_Report-part-23",
+    "questionLabel": ""
+  },
+  {
+    "question": "在离策略蒸馏阶段，教师模型使用了哪些输出模式来辅助学生模型学习",
+    "chunkName": "Qwen3_Technical_Report-part-23",
+    "questionLabel": ""
+  },
+  {
+    "question": "在策略内蒸馏（On-policy Distillation）阶段，学生模型如何生成用于微调的序列？",
+    "chunkName": "Qwen3_Technical_Report-part-23",
+    "questionLabel": ""
+  },
+  {
+    "question": "策略内蒸馏中，学生模型通过最小化与哪个指标的差异来进行对齐？",
+    "chunkName": "Qwen3_Technical_Report-part-23",
+    "questionLabel": ""
+  },
+  {
+    "question": "用于策略内蒸馏的教师模型具体包括哪些版本？",
+    "chunkName": "Qwen3_Technical_Report-part-23",
+    "questionLabel": ""
+  },
+  {
+    "question": "Multi-IF基准测试涵盖了哪几种语言",
+    "chunkName": "Qwen3_Technical_Report-part-23",
+    "questionLabel": ""
+  },
+  {
+    "question": "INCLUDE基准测试涉及多少种语言？",
+    "chunkName": "Qwen3_Technical_Report-part-23",
+    "questionLabel": ""
+  },
+  {
+    "question": "MT-AIME2024基准测试包含的语言数量是多少",
+    "chunkName": "Qwen3_Technical_Report-part-23",
+    "questionLabel": ""
+  },
+  {
+    "question": "MMMLU基准测试主要评估哪些方面的能力或覆盖哪些语言",
+    "chunkName": "Qwen3_Technical_Report-part-23",
+    "questionLabel": ""
+  },
+  {
+    "question": "在检索增强生成（RAG）任务中，设计何种信号以引导模型生成准确且符合上下文的响应并降低幻觉风险？",
+    "chunkName": "Qwen3_Technical_Report-part-22",
+    "questionLabel": ""
+  },
+  {
+    "question": "基于规则的奖励机制在哪些通用任务中被证明有效，且其高精度评估有助于防止什么问题？",
+    "chunkName": "Qwen3_Technical_Report-part-22",
+    "questionLabel": ""
+  },
+  {
+    "question": "使用参考答案的基于模型的奖励方法如何利用Qwen2.5-72B-Instruct对模型响应进行评分？",
+    "chunkName": "Qwen3_Technical_Report-part-22",
+    "questionLabel": ""
+  },
+  {
+    "question": "相比纯基于规则的奖励，引入参考答案的模型奖励方法在处理多样化任务时具有什么优势",
+    "chunkName": "Qwen3_Technical_Report-part-22",
+    "questionLabel": ""
+  },
+  {
+    "question": "不依赖参考答案的基于模型的奖励方法主要利用了什么数据来训练奖励模型",
+    "chunkName": "Qwen3_Technical_Report-part-22",
+    "questionLabel": ""
+  },
+  {
+    "question": "无参考答案的奖励模型方法如何影响模型的参与度和有用性？",
+    "chunkName": "Qwen3_Technical_Report-part-22",
+    "questionLabel": ""
+  },
+  {
+    "question": "强到弱蒸馏管线具体针对哪几种轻量级稠密模型和混合专家模型进行了优化",
+    "chunkName": "Qwen3_Technical_Report-part-22",
+    "questionLabel": ""
+  },
+  {
+    "question": "强到弱蒸馏方法除了提升模型性能外，还旨在赋予模型什么样的核心能力？",
+    "chunkName": "Qwen3_Technical_Report-part-22",
+    "questionLabel": ""
+  },
+  {
+    "question": "Qwen3模型在通用阶段（S1）的预训练使用了多少token以及序列长度是多少？",
+    "chunkName": "Qwen3_Technical_Report-part-8",
+    "questionLabel": ""
+  },
+  {
+    "question": "Qwen3模型的训练数据覆盖了哪些范围的语言和方言数量？",
+    "chunkName": "Qwen3_Technical_Report-part-8",
+    "questionLabel": ""
+  },
+  {
+    "question": "为了提升推理能力，Qwen3在推理阶段（S2）对语料库进行了哪些优化调整？",
+    "chunkName": "Qwen3_Technical_Report-part-8",
+    "questionLabel": ""
+  },
+  {
+    "question": "在推理阶段（S2），模型进一步预训练使用的token数量及序列长度配置是什么",
+    "chunkName": "Qwen3_Technical_Report-part-8",
+    "questionLabel": ""
+  },
+  {
+    "question": "Qwen3在长上下文阶段的预训练中，收集了多少数量的token以及设定的序列长度是多少",
+    "chunkName": "Qwen3_Technical_Report-part-8",
+    "questionLabel": ""
+  },
+  {
+    "question": "长上下文语料库中不同长度文本的比例分布是怎样的？",
+    "chunkName": "Qwen3_Technical_Report-part-8",
+    "questionLabel": ""
+  },
+  {
+    "question": "Qwen3采用ABF技术将RoPE的基础频率从多少增加到了多少？",
+    "chunkName": "Qwen3_Technical_Report-part-8",
+    "questionLabel": ""
+  },
+  {
+    "question": "引入YARN和Dual Chunk Attention (DCA) 技术对推理时的序列长度容量产生了什么影响",
+    "chunkName": "Qwen3_Technical_Report-part-8",
+    "questionLabel": ""
+  },
+  {
+    "question": "基于三个预训练阶段，研究人员开发了用于预测最优超参数的什么方法",
+    "chunkName": "Qwen3_Technical_Report-part-8",
+    "questionLabel": ""
+  },
+  {
+    "question": "最终为每个稠密或MoE模型设定了哪些具体的训练策略？",
+    "chunkName": "Qwen3_Technical_Report-part-8",
+    "questionLabel": ""
+  },
+  {
+    "question": "Qwen3模型在预训练阶段使用了哪些模型来对PDF类文档进行文本识别和精炼？",
+    "chunkName": "Qwen3_Technical_Report-part-7",
+    "questionLabel": ""
+  },
+  {
+    "question": "通过两步处理流程（识别与精炼），最终获得了多少规模的高质量文本令牌？",
+    "chunkName": "Qwen3_Technical_Report-part-7",
+    "questionLabel": ""
+  },
+  {
+    "question": "除了处理现有文档，还利用哪些特定领域的模型合成了不同格式的文本数据",
+    "chunkName": "Qwen3_Technical_Report-part-7",
+    "questionLabel": ""
+  },
+  {
+    "question": "合成的文本数据涵盖了哪些具体格式类型以及多少个领域？",
+    "chunkName": "Qwen3_Technical_Report-part-7",
+    "questionLabel": ""
+  },
+  {
+    "question": "相较于Qwen2.5的预训练数据，Qwen3支持的语言数量从多少增加到了多少",
+    "chunkName": "Qwen3_Technical_Report-part-7",
+    "questionLabel": ""
+  },
+  {
+    "question": "引入更多语言的主要目的是增强模型的哪些能力？",
+    "chunkName": "Qwen3_Technical_Report-part-7",
+    "questionLabel": ""
+  },
+  {
+    "question": "开发的多语言数据标注系统对超过多少数量的令牌进行了多维度标注？",
+    "chunkName": "Qwen3_Technical_Report-part-7",
+    "questionLabel": ""
+  },
+  {
+    "question": "数据标注涵盖的具体维度包括哪些方面",
+    "chunkName": "Qwen3_Technical_Report-part-7",
+    "questionLabel": ""
+  },
+  {
+    "question": "Qwen3的数据混合优化方法与前人研究相比，主要区别在于优化的层级是什么？",
+    "chunkName": "Qwen3_Technical_Report-part-7",
+    "questionLabel": ""
+  },
+  {
+    "question": "为了验证实例级数据混合优化策略，采用了什么类型的实验方法",
+    "chunkName": "Qwen3_Technical_Report-part-7",
+    "questionLabel": ""
+  },
+  {
+    "question": "Qwen3系列基础模型的评估主要关注哪些核心能力维度",
+    "chunkName": "Qwen3_Technical_Report-part-9",
+    "questionLabel": ""
+  },
+  {
+    "question": "用于预训练基础模型评估的基准测试数据集总共包含多少个基准项？",
+    "chunkName": "Qwen3_Technical_Report-part-9",
+    "questionLabel": ""
+  },
+  {
+    "question": "在通用任务（General Tasks）类别中，具体使用了哪五个基准测试数据集",
+    "chunkName": "Qwen3_Technical_Report-part-9",
+    "questionLabel": ""
+  },
+  {
+    "question": "数学与STEM任务（Math & STEM Tasks）涵盖了哪些具体的评估基准",
+    "chunkName": "Qwen3_Technical_Report-part-9",
+    "questionLabel": ""
+  },
+  {
+    "question": "编程任务（Coding Tasks）中的EvalPlus基准是如何计算得分的？",
+    "chunkName": "Qwen3_Technical_Report-part-9",
+    "questionLabel": ""
+  },
+  {
+    "question": "多语言任务（Multilingual Tasks）包括哪三个主要的基准测试",
+    "chunkName": "Qwen3_Technical_Report-part-9",
+    "questionLabel": ""
+  },
+  {
+    "question": "为了进行公平比较，Qwen3系列基础模型与哪些开源基线模型进行了对比",
+    "chunkName": "Qwen3_Technical_Report-part-9",
+    "questionLabel": ""
+  },
+  {
+    "question": "在评估过程中，所有模型是否采用了相同的评估流程和设置",
+    "chunkName": "Qwen3_Technical_Report-part-9",
+    "questionLabel": ""
+  },
+  {
+    "question": "Qwen3 MoE模型中每个token激活的专家数量是多少",
+    "chunkName": "Qwen3_Technical_Report-part-6",
+    "questionLabel": ""
+  },
+  {
+    "question": "与Qwen2.5-MoE相比，Qwen3-MoE架构设计在共享专家方面有何不同",
+    "chunkName": "Qwen3_Technical_Report-part-6",
+    "questionLabel": ""
+  },
+  {
+    "question": "Qwen3模型使用的分词器词汇表大小是多少？",
+    "chunkName": "Qwen3_Technical_Report-part-6",
+    "questionLabel": ""
+  },
+  {
+    "question": "Qwen3系列模型预训练数据覆盖了多少种语言和方言",
+    "chunkName": "Qwen3_Technical_Report-part-6",
+    "questionLabel": ""
+  },
+  {
+    "question": "Qwen3模型的预训练数据总量达到了多少tokens",
+    "chunkName": "Qwen3_Technical_Report-part-6",
+    "questionLabel": ""
+  },
+  {
+    "question": "为了鼓励专家专业化，Qwen3采用了哪种损失函数",
+    "chunkName": "Qwen3_Technical_Report-part-6",
+    "questionLabel": ""
+  },
+  {
+    "question": "根据架构信息，Qwen3-8B模型的上下文长度是多少？",
+    "chunkName": "Qwen3_Technical_Report-part-6",
+    "questionLabel": ""
+  },
+  {
+    "question": "Qwen3-235B-A22B模型总共有多少个专家？",
+    "chunkName": "Qwen3_Technical_Report-part-6",
+    "questionLabel": ""
+  },
+  {
+    "question": "在思考模式融合阶段，如何通过聊天模板禁用思考模式",
+    "chunkName": "Qwen3_Technical_Report-part-19",
+    "questionLabel": ""
+  },
+  {
+    "question": "Qwen3-235B-A22B模型在170个强化学习训练步骤中，AIME’24分数发生了怎样的变化？",
+    "chunkName": "Qwen3_Technical_Report-part-19",
+    "questionLabel": ""
+  },
+  {
+    "question": "将非思考能力集成到思考模型中的主要目标是什么？",
+    "chunkName": "Qwen3_Technical_Report-part-19",
+    "questionLabel": ""
+  },
+  {
+    "question": "为了确保第二阶段模型的性能不因额外的监督微调而受损，思考数据是如何生成的",
+    "chunkName": "Qwen3_Technical_Report-part-19",
+    "questionLabel": ""
+  },
+  {
+    "question": "能够同时熟练处理两种模式的模型在不同思考预算下的表现如何？",
+    "chunkName": "Qwen3_Technical_Report-part-19",
+    "questionLabel": ""
+  },
+  {
+    "question": "在非思考模式下，用户查询指令与助手响应格式有何特定要求",
+    "chunkName": "Qwen3_Technical_Report-part-19",
+    "questionLabel": ""
+  },
+  {
+    "question": "实现稳定的训练奖励和验证性能提升是否需要对超参数进行人工干预",
+    "chunkName": "Qwen3_Technical_Report-part-19",
+    "questionLabel": ""
+  },
+  {
+    "question": "思考模式融合阶段对推理强化学习模型进行了什么类型的持续微调",
+    "chunkName": "Qwen3_Technical_Report-part-19",
+    "questionLabel": ""
+  },
+  {
+    "question": "“non-thinking”数据旨在覆盖哪些多样化的任务类型",
+    "chunkName": "Qwen3_Technical_Report-part-20",
+    "questionLabel": ""
+  },
+  {
+    "question": "在评估“non-thinking”数据的响应质量时采用了什么方法？",
+    "chunkName": "Qwen3_Technical_Report-part-20",
+    "questionLabel": ""
+  },
+  {
+    "question": "为了提升低资源语言任务的性能，采取了哪项具体措施？",
+    "chunkName": "Qwen3_Technical_Report-part-20",
+    "questionLabel": ""
+  },
+  {
+    "question": "Qwen3中用于区分思考模式和非思考模式的标记分别是什么",
+    "chunkName": "Qwen3_Technical_Report-part-20",
+    "questionLabel": ""
+  },
+  {
+    "question": "在非思考模式下，助手响应中保留空思考块的主要目的是什么？",
+    "chunkName": "Qwen3_Technical_Report-part-20",
+    "questionLabel": ""
+  },
+  {
+    "question": "开发者如何通过聊天模板防止模型执行思考行为",
+    "chunkName": "Qwen3_Technical_Report-part-20",
+    "questionLabel": ""
+  },
+  {
+    "question": "Qwen3模型的默认运行模式是什么",
+    "chunkName": "Qwen3_Technical_Report-part-20",
+    "questionLabel": ""
+  },
+  {
+    "question": "在多轮对话中，当用户查询包含多个切换标记时，模型依据哪个标记来决定响应方式",
+    "chunkName": "Qwen3_Technical_Report-part-20",
+    "questionLabel": ""
+  },
+  {
+    "question": "Thinking Mode Fusion使模型能够处理哪种中间情况，从而为预算控制奠定基础？",
+    "chunkName": "Qwen3_Technical_Report-part-20",
+    "questionLabel": ""
+  },
+  {
+    "question": "Qwen3-14B-Base模型在性能上与哪些基线模型相当，从而带来了推理和训练成本的优势",
+    "chunkName": "Qwen3_Technical_Report-part-16",
+    "questionLabel": ""
+  },
+  {
+    "question": "对于边缘侧模型，研究采用了哪些相似大小的基座模型作为基准进行比较",
+    "chunkName": "Qwen3_Technical_Report-part-16",
+    "questionLabel": ""
+  },
+  {
+    "question": "Qwen3系列中较小尺寸的Base模型（如8B/4B/1.7B）在哪些特定领域的基准测试上甚至超过了更大尺寸的Qwen2.5 Base模型？",
+    "chunkName": "Qwen3_Technical_Report-part-16",
+    "questionLabel": ""
+  },
+  {
+    "question": "Qwen3后训练流程的两个核心战略目标分别是什么？",
+    "chunkName": "Qwen3_Technical_Report-part-16",
+    "questionLabel": ""
+  },
+  {
+    "question": "“思考控制”（Thinking Control）功能为用户提供了哪两种不同的模式选择，以及如何通过令牌预算来管理思考过程",
+    "chunkName": "Qwen3_Technical_Report-part-16",
+    "questionLabel": ""
+  },
+  {
+    "question": "“强到弱蒸馏”（Strong-to-Weak Distillation）技术的主要目的是优化轻量级模型的哪个环节，并如何降低计算成本和开发工作量？",
+    "chunkName": "Qwen3_Technical_Report-part-16",
+    "questionLabel": ""
+  },
+  {
+    "question": "根据图示，Qwen3旗舰模型的四阶段训练过程中，前两个阶段主要侧重于培养模型的什么能力？",
+    "chunkName": "Qwen3_Technical_Report-part-16",
+    "questionLabel": ""
+  },
+  {
+    "question": "在四阶段训练流程中，后两个阶段旨在将哪种 functionalities 整合到模型中？",
+    "chunkName": "Qwen3_Technical_Report-part-16",
+    "questionLabel": ""
+  },
+  {
+    "question": "轻量级学生模型在保持对推理过程细粒度控制的同时，如何提升性能",
+    "chunkName": "Qwen3_Technical_Report-part-17",
+    "questionLabel": ""
+  },
+  {
+    "question": "该方法相比传统四阶段训练流程，在GPU小时消耗上有何具体优势",
+    "chunkName": "Qwen3_Technical_Report-part-17",
+    "questionLabel": ""
+  },
+  {
+    "question": "Pass@1和Pass@64指标分别反映了模型的哪些能力？",
+    "chunkName": "Qwen3_Technical_Report-part-17",
+    "questionLabel": ""
+  },
+  {
+    "question": "Long-CoT冷启动阶段的数据集涵盖了哪些主要类别",
+    "chunkName": "Qwen3_Technical_Report-part-17",
+    "questionLabel": ""
+  },
+  {
+    "question": "在查询过滤阶段，Qwen2.5-72B-Instruct被用来移除哪类难以验证的查询？",
+    "chunkName": "Qwen3_Technical_Report-part-17",
+    "questionLabel": ""
+  },
+  {
+    "question": "为何要排除那些无需使用思维链（CoT）推理即可正确回答的问题",
+    "chunkName": "Qwen3_Technical_Report-part-17",
+    "questionLabel": ""
+  },
+  {
+    "question": "数据集构建过程中采用的两阶段过滤机制具体指什么",
+    "chunkName": "Qwen3_Technical_Report-part-17",
+    "questionLabel": ""
+  },
+  {
+    "question": "如何通过标注来确保数据集中不同领域分布的平衡性",
+    "chunkName": "Qwen3_Technical_Report-part-17",
+    "questionLabel": ""
+  },
+  {
+    "question": "Qwen3系列模型中包含了哪些具体的稠密（Dense）模型和混合专家（MoE）模型",
+    "chunkName": "Qwen3_Technical_Report-part-5",
+    "questionLabel": ""
+  },
+  {
+    "question": "旗舰模型Qwen3-235B-A22B在AIME'24和AIME'25基准测试中分别取得了怎样的分数",
+    "chunkName": "Qwen3_Technical_Report-part-5",
+    "questionLabel": ""
+  },
+  {
+    "question": "Qwen3的稠密模型架构主要沿用了Qwen2.5中的哪些关键技术组件",
+    "chunkName": "Qwen3_Technical_Report-part-5",
+    "questionLabel": ""
+  },
+  {
+    "question": "为了确保Qwen3训练过程的稳定性，其注意力机制引入了什么新方法并移除了旧版本中的哪个特征",
+    "chunkName": "Qwen3_Technical_Report-part-5",
+    "questionLabel": ""
+  },
+  {
+    "question": "观察发现增加思考token的预算会对模型性能产生何种影响",
+    "chunkName": "Qwen3_Technical_Report-part-5",
+    "questionLabel": ""
+  },
+  {
+    "question": "Qwen3-235B-A22B模型的总参数量和激活参数量分别是多少",
+    "chunkName": "Qwen3_Technical_Report-part-5",
+    "questionLabel": ""
+  },
+  {
+    "question": "除了数学任务外，Qwen3模型在代码生成和智能体相关任务上还有哪些具体的基准测试表现？",
+    "chunkName": "Qwen3_Technical_Report-part-5",
+    "questionLabel": ""
+  },
+  {
+    "question": "Qwen3 MoE模型的基础架构与Qwen3稠密模型相比有何异同？",
+    "chunkName": "Qwen3_Technical_Report-part-5",
+    "questionLabel": ""
+  },
+  {
+    "question": "当QwQ-32B持续无法生成正确解时，后续采取什么措施来评估响应的准确性",
+    "chunkName": "Qwen3_Technical_Report-part-18",
+    "questionLabel": ""
+  },
+  {
+    "question": "对于具有正向Pass@N的查询，应用了哪些严格的过滤标准以移除不合格的响应",
+    "chunkName": "Qwen3_Technical_Report-part-18",
+    "questionLabel": ""
+  },
+  {
+    "question": "在初步冷启动训练阶段，使用精选数据集的主要目标是什么",
+    "chunkName": "Qwen3_Technical_Report-part-18",
+    "questionLabel": ""
+  },
+  {
+    "question": "为什么在冷启动训练阶段建议尽量减少训练样本数量和训练步骤？",
+    "chunkName": "Qwen3_Technical_Report-part-18",
+    "questionLabel": ""
+  },
+  {
+    "question": "推理RL阶段使用的查询-验证器对必须满足哪四个具体标准",
+    "chunkName": "Qwen3_Technical_Report-part-18",
+    "questionLabel": ""
+  },
+  {
+    "question": "最终收集了多少个查询-验证器对用于推理RL阶段",
+    "chunkName": "Qwen3_Technical_Report-part-18",
+    "questionLabel": ""
+  },
+  {
+    "question": "在推理RL阶段，采用哪种算法来更新模型参数",
+    "chunkName": "Qwen3_Technical_Report-part-18",
+    "questionLabel": ""
+  },
+  {
+    "question": "为了提高训练过程的效率，观察到哪些因素是有益的",
+    "chunkName": "Qwen3_Technical_Report-part-18",
+    "questionLabel": ""
+  },
+  {
+    "question": "模型预训练的第一阶段使用了多少数据量，其主要目的是什么",
+    "chunkName": "Qwen3_Technical_Report-part-4",
+    "questionLabel": ""
+  },
+  {
+    "question": "在预训练的第二阶段，模型通过何种类型的数据来增强特定领域的推理能力",
+    "chunkName": "Qwen3_Technical_Report-part-4",
+    "questionLabel": ""
+  },
+  {
+    "question": "预训练的第三阶段如何改变了模型的最大上下文长度？",
+    "chunkName": "Qwen3_Technical_Report-part-4",
+    "questionLabel": ""
+  },
+  {
+    "question": "后训练过程的前两个阶段主要致力于开发哪些核心能力",
+    "chunkName": "Qwen3_Technical_Report-part-4",
+    "questionLabel": ""
+  },
+  {
+    "question": "在后训练的最后两个阶段，如何处理包含与不包含推理路径的数据以优化模型表现",
+    "chunkName": "Qwen3_Technical_Report-part-4",
+    "questionLabel": ""
+  },
+  {
+    "question": "针对较小规模的模型，采用了哪种技术来从大型模型中迁移知识以提升其能力？",
+    "chunkName": "Qwen3_Technical_Report-part-4",
+    "questionLabel": ""
+  },
+  {
+    "question": "相比于强化学习，从高级教师模型进行蒸馏在性能和训练效率方面有何优势",
+    "chunkName": "Qwen3_Technical_Report-part-4",
+    "questionLabel": ""
+  },
+  {
+    "question": "实验结果显示，经过后训练的模型在思考模式和非思考模式下与领先的专有模型相比表现如何",
+    "chunkName": "Qwen3_Technical_Report-part-4",
+    "questionLabel": ""
+  },
+  {
+    "question": "Qwen3模型的总参数数量和每个Token激活的参数数量分别是多少",
+    "chunkName": "Qwen3_Technical_Report-part-3",
+    "questionLabel": ""
+  },
+  {
+    "question": "Qwen3引入了哪两种不同的操作模式以增强其功能性和可用性？",
+    "chunkName": "Qwen3_Technical_Report-part-3",
+    "questionLabel": ""
+  },
+  {
+    "question": "用户在使用Qwen3时，关于操作模式的切换有哪些便利性改进",
+    "chunkName": "Qwen3_Technical_Report-part-3",
+    "questionLabel": ""
+  },
+  {
+    "question": "Qwen3中的“思考预算”（thinking budgets）功能为用户提供了什么样的控制能力",
+    "chunkName": "Qwen3_Technical_Report-part-3",
+    "questionLabel": ""
+  },
+  {
+    "question": "Qwen3的预训练数据规模是多少，涵盖了多少种语言和方言？",
+    "chunkName": "Qwen3_Technical_Report-part-3",
+    "questionLabel": ""
+  },
+  {
+    "question": "为了高效扩展训练数据，Qwen3采用了什么多模态方法来从PDF文档中提取文本？",
+    "chunkName": "Qwen3_Technical_Report-part-3",
+    "questionLabel": ""
+  },
+  {
+    "question": "在生成合成数据时，Qwen3分别使用了哪些特定领域的模型来处理数学内容和代码相关数据",
+    "chunkName": "Qwen3_Technical_Report-part-3",
+    "questionLabel": ""
+  },
+  {
+    "question": "Qwen3的多语言能力提升对其在全球范围内的部署有何意义",
+    "chunkName": "Qwen3_Technical_Report-part-3",
+    "questionLabel": ""
+  },
+  {
+    "question": "Qwen3模型系列包含哪些架构类型以及参数规模范围是多少？",
+    "chunkName": "Qwen3_Technical_Report-part-1",
+    "questionLabel": ""
+  },
+  {
+    "question": "Qwen3如何整合思考模式与非思考模式以优化用户体验",
+    "chunkName": "Qwen3_Technical_Report-part-1",
+    "questionLabel": ""
+  },
+  {
+    "question": "Qwen3引入的思考预算机制主要解决了什么问题",
+    "chunkName": "Qwen3_Technical_Report-part-1",
+    "questionLabel": ""
+  },
+  {
+    "question": "相比前代产品Qwen2.5，Qwen3在多语言支持方面有哪些具体提升",
+    "chunkName": "Qwen3_Technical_Report-part-1",
+    "questionLabel": ""
+  },
+  {
+    "question": "Qwen3利用旗舰模型知识对小规模模型的构建产生了什么影响",
+    "chunkName": "Qwen3_Technical_Report-part-1",
+    "questionLabel": ""
+  },
+  {
+    "question": "Qwen3在哪些基准测试任务中展示了最先进（SOTA）的性能？",
+    "chunkName": "Qwen3_Technical_Report-part-1",
+    "questionLabel": ""
+  },
+  {
+    "question": "Qwen3的动态模式切换功能消除了对哪种传统模型架构的需求？",
+    "chunkName": "Qwen3_Technical_Report-part-1",
+    "questionLabel": ""
+  },
+  {
+    "question": "Qwen3旨在通过改进跨语言理解和生成能力来增强什么特性",
+    "chunkName": "Qwen3_Technical_Report-part-1",
+    "questionLabel": ""
+  },
+  {
+    "question": "Qwen3模型系列在开源许可协议方面采用了什么标准",
+    "chunkName": "Qwen3_Technical_Report-part-2",
+    "questionLabel": ""
+  },
+  {
+    "question": "文中列举了哪些近期取得显著进展的大规模基础模型作为例子？",
+    "chunkName": "Qwen3_Technical_Report-part-2",
+    "questionLabel": ""
+  },
+  {
+    "question": "推理模型通过何种优化方法展示了增强推理时间扩展的潜力",
+    "chunkName": "Qwen3_Technical_Report-part-2",
+    "questionLabel": ""
+  },
+  {
+    "question": "开源社区的快速增长对开源权重模型与闭源模型之间的性能差距产生了什么影响",
+    "chunkName": "Qwen3_Technical_Report-part-2",
+    "questionLabel": ""
+  },
+  {
+    "question": "Qwen3系列模型包含了哪两种主要的架构类型",
+    "chunkName": "Qwen3_Technical_Report-part-2",
+    "questionLabel": ""
+  },
+  {
+    "question": "Qwen3发布的模型参数范围是多少，以满足不同下游应用的需求",
+    "chunkName": "Qwen3_Technical_Report-part-2",
+    "questionLabel": ""
+  },
+  {
+    "question": "文中提到的旗舰模型Qwen3-235B-A22B属于哪种类型的模型架构",
+    "chunkName": "Qwen3_Technical_Report-part-2",
+    "questionLabel": ""
+  },
+  {
+    "question": "大规模基础模型是如何将人类知识和能力蒸馏到其参数中的",
+    "chunkName": "Qwen3_Technical_Report-part-2",
+    "questionLabel": ""
+  },
+  {
+    "question": "Qwen3-32B-Base在MMLU Pro和SuperGPQA基准测试上取得了怎样的具体分数？",
+    "chunkName": "Qwen3_Technical_Report-part-15",
+    "questionLabel": ""
+  },
+  {
+    "question": "尽管参数量不足Qwen2.5-72B-Base的一半，Qwen3-32B-Base在多少个评估基准上超越了它",
+    "chunkName": "Qwen3_Technical_Report-part-15",
+    "questionLabel": ""
+  },
+  {
+    "question": "Qwen3-32B-Base与Llama-4-Scout-Base相比，其总参数量和激活参数数量有何差异",
+    "chunkName": "Qwen3_Technical_Report-part-15",
+    "questionLabel": ""
+  },
+  {
+    "question": "在针对Qwen3-14B-Base的评估中，引入了哪两个具有相似规模或更强性能的基线模型",
+    "chunkName": "Qwen3_Technical_Report-part-15",
+    "questionLabel": ""
+  },
+  {
+    "question": "Qwen2.5-Turbo模型的总参数量和激活参数量分别是多少",
+    "chunkName": "Qwen3_Technical_Report-part-15",
+    "questionLabel": ""
+  },
+  {
+    "question": "Qwen3-14B-Base在与同尺寸模型（如Qwen2.5-14B-Base和Gemma-3-12B-Base）的比较中表现如何？",
+    "chunkName": "Qwen3_Technical_Report-part-15",
+    "questionLabel": ""
+  },
+  {
+    "question": "Qwen3-30B-A3B-Base仅使用多少比例的激活非嵌入参数即可显著超越对比模型",
+    "chunkName": "Qwen3_Technical_Report-part-15",
+    "questionLabel": ""
+  },
+  {
+    "question": "Qwen3-32B-Base在编码、数学和推理基准测试上与Qwen2.5-72B-Base相比有何优势",
+    "chunkName": "Qwen3_Technical_Report-part-15",
+    "questionLabel": ""
+  },
+  {
+    "question": "在对比 Qwen2.5-72B、Qwen3-235B-A22B 等模型时，哪个模型的总参数量最大？",
+    "chunkName": "Qwen3_Technical_Report-part-12",
+    "questionLabel": ""
+  },
+  {
+    "question": "Qwen3-235B-A22B 与 DeepSeek-V3 在架构类型上分别属于什么类别？",
+    "chunkName": "Qwen3_Technical_Report-part-12",
+    "questionLabel": ""
+  },
+  {
+    "question": "在通用任务 MMLU 中，Qwen3-235B-A22B 的得分是多少",
+    "chunkName": "Qwen3_Technical_Report-part-12",
+    "questionLabel": ""
+  },
+  {
+    "question": "对于数学与 STEM 任务中的 GPQA 测试，哪个模型取得了最高分？",
+    "chunkName": "Qwen3_Technical_Report-part-12",
+    "questionLabel": ""
+  },
+  {
+    "question": "在编码任务 EvalPlus 中，Qwen3-235B-A22B 相比 Llama-4-Maverick 表现如何？",
+    "chunkName": "Qwen3_Technical_Report-part-12",
+    "questionLabel": ""
+  },
+  {
+    "question": "在多语言任务 MGSM 中，Qwen3-235B-A22B 的得分是否高于 Qwen2.5-Plus",
+    "chunkName": "Qwen3_Technical_Report-part-12",
+    "questionLabel": ""
+  },
+  {
+    "question": "对比 Qwen3-32B-Base 和其他开源基线模型时，Qwen3-32B 的激活参数量是多少",
+    "chunkName": "Qwen3_Technical_Report-part-12",
+    "questionLabel": ""
+  },
+  {
+    "question": "在 Table 4 的对比中，Gemma-3-27B 在 MMLU-Pro 任务上的得分是多少？",
+    "chunkName": "Qwen3_Technical_Report-part-12",
+    "questionLabel": ""
+  },
+  {
+    "question": "Qwen3-32B 在数学任务 GSM8K 上的表现是否优于同列的其他所有模型",
+    "chunkName": "Qwen3_Technical_Report-part-12",
+    "questionLabel": ""
+  },
+  {
+    "question": "在编码任务 MultiPL-E 中，Llama-4-Scout 与 Qwen3-32B 的得分分别是多少",
+    "chunkName": "Qwen3_Technical_Report-part-12",
+    "questionLabel": ""
+  },
+  {
+    "question": "Qwen2.5-32B Base模型在MMLU基准测试中取得了多少分",
+    "chunkName": "Qwen3_Technical_Report-part-13",
+    "questionLabel": ""
+  },
+  {
+    "question": "根据表格数据，哪个模型在SuperGPQA任务上获得了最高分（加粗显示）？",
+    "chunkName": "Qwen3_Technical_Report-part-13",
+    "questionLabel": ""
+  },
+  {
+    "question": "Qwen2.5-Turbo与Qwen3-30B-A3B相比，哪一个是混合专家（MoE）架构",
+    "chunkName": "Qwen3_Technical_Report-part-13",
+    "questionLabel": ""
+  },
+  {
+    "question": "在数学和STEM任务类别中，Gemma-3-12B在GPQA上的得分是多少",
+    "chunkName": "Qwen3_Technical_Report-part-13",
+    "questionLabel": ""
+  },
+  {
+    "question": "Qwen3-8B Base模型在Coding Tasks中的EvalPlus项目上表现如何？",
+    "chunkName": "Qwen3_Technical_Report-part-13",
+    "questionLabel": ""
+  },
+  {
+    "question": "对比Llama-3-8B、Qwen2.5-7B和Qwen3-8B，哪个模型在BBH任务上的得分最高",
+    "chunkName": "Qwen3_Technical_Report-part-13",
+    "questionLabel": ""
+  },
+  {
+    "question": "Qwen2.5-14B在Multilingual Tasks的MGSM项目中获得了什么分数",
+    "chunkName": "Qwen3_Technical_Report-part-13",
+    "questionLabel": ""
+  },
+  {
+    "question": "从激活参数数量来看，Qwen2.5-Turbo与其他Dense架构模型有何显著不同",
+    "chunkName": "Qwen3_Technical_Report-part-13",
+    "questionLabel": ""
+  },
+  {
+    "question": "Qwen3-4B Base模型在MMLU-Pro基准测试中的得分是多少",
+    "chunkName": "Qwen3_Technical_Report-part-14",
+    "questionLabel": ""
+  },
+  {
+    "question": "在总参数量为4B或更少的Dense架构基础模型中，哪一个在GSM8K数学任务上表现最佳？",
+    "chunkName": "Qwen3_Technical_Report-part-14",
+    "questionLabel": ""
+  },
+  {
+    "question": "Qwen2.5-7B Base模型在MultiPL-E编程任务中的具体得分是多少？",
+    "chunkName": "Qwen3_Technical_Report-part-14",
+    "questionLabel": ""
+  },
+  {
+    "question": "对比Gemma-3-1B和Qwen3-0.6B，哪个模型在BBH基准测试中获得了更高的分数",
+    "chunkName": "Qwen3_Technical_Report-part-14",
+    "questionLabel": ""
+  },
+  {
+    "question": "Qwen3-1.7B Base模型在MGSM多语言任务上的得分是否超过了Qwen2.5-1.5B？",
+    "chunkName": "Qwen3_Technical_Report-part-14",
+    "questionLabel": ""
+  },
+  {
+    "question": "在所列出的小参数模型中，Gemma-3-1B在MATH任务上的表现如何？",
+    "chunkName": "Qwen3_Technical_Report-part-14",
+    "questionLabel": ""
+  },
+  {
+    "question": "Qwen2.5-3B Base模型在INCLUDE多语言任务中的得分是多少？",
+    "chunkName": "Qwen3_Technical_Report-part-14",
+    "questionLabel": ""
+  },
+  {
+    "question": "对于总参数量为1B至1.7B的模型，Qwen3-1.7B在EvalPlus代码生成任务中相比Qwen2.5-1.5B提升了多少分",
+    "chunkName": "Qwen3_Technical_Report-part-14",
+    "questionLabel": ""
+  },
+  {
+    "question": "Qwen3-235B-A22B-Base与参数量约为其两倍的最新开源模型Llama-4-Maverick-Base相比，在基准测试中的表现如何",
+    "chunkName": "Qwen3_Technical_Report-part-11",
+    "questionLabel": ""
+  },
+  {
+    "question": "在与之前最先进的开源模型DeepSeek-V3-Base的对比中，Qwen3-235B-A22B-Base在多少个评估基准上取得了优势",
+    "chunkName": "Qwen3_Technical_Report-part-11",
+    "questionLabel": ""
+  },
+  {
+    "question": "尽管Qwen3-235B-A22B-Base的总参数量和激活参数量分别仅为DeepSeek-V3-Base的约1/3和2/3，这证明了模型的哪些特性",
+    "chunkName": "Qwen3_Technical_Report-part-11",
+    "questionLabel": ""
+  },
+  {
+    "question": "相较于同等规模的上一代MoE模型Qwen2.5-Plus，Qwen3-235B-A22B-Base展现出显著优势的原因是什么",
+    "chunkName": "Qwen3_Technical_Report-part-11",
+    "questionLabel": ""
+  },
+  {
+    "question": "Qwen3-235B-A22B-Base在每万亿token的推理成本和训练成本方面，与旗舰稠密模型Qwen2.5-72B-Base相比有何不同",
+    "chunkName": "Qwen3_Technical_Report-part-11",
+    "questionLabel": ""
+  },
+  {
+    "question": "作为Qwen3系列中最大的稠密模型，Qwen3-32B-Base主要与哪些相似规模的基线模型进行了比较？",
+    "chunkName": "Qwen3_Technical_Report-part-11",
+    "questionLabel": ""
+  },
+  {
+    "question": "最新开源的MoE模型Llama-4-Scout在参数规模上与Qwen3-32B-Base相比有什么具体差异",
+    "chunkName": "Qwen3_Technical_Report-part-11",
+    "questionLabel": ""
+  },
+  {
+    "question": "Qwen3 MoE基础模型在激活参数数量仅为稠密模型五分之一时，能实现怎样的性能表现",
+    "chunkName": "Qwen3_Technical_Report-part-10",
+    "questionLabel": ""
+  },
+  {
+    "question": "相较于Qwen2.5 MoE基础模型，Qwen3 MoE基础模型在激活参数和总参数减少的情况下，性能有何提升？",
+    "chunkName": "Qwen3_Technical_Report-part-10",
+    "questionLabel": ""
+  },
+  {
+    "question": "即使仅使用Qwen2.5稠密基础模型十分之一的激活参数，Qwen3 MoE基础模型能达到什么效果",
+    "chunkName": "Qwen3_Technical_Report-part-10",
+    "questionLabel": ""
+  },
+  {
+    "question": "Qwen3 MoE架构改进、训练规模扩大及先进策略带来了哪些具体的推理和训练成本优势",
+    "chunkName": "Qwen3_Technical_Report-part-10",
+    "questionLabel": ""
+  },
+  {
+    "question": "Qwen3稠密基础模型（如1.7B/4B等）与Qwen2.5更高参数规模的模型相比，整体性能如何",
+    "chunkName": "Qwen3_Technical_Report-part-10",
+    "questionLabel": ""
+  },
+  {
+    "question": "在STEM、编码和推理基准测试中，Qwen3稠密基础模型的表现相对于同系列高参数模型有何特点",
+    "chunkName": "Qwen3_Technical_Report-part-10",
+    "questionLabel": ""
+  },
+  {
+    "question": "Qwen3-235B-A22B-Base主要与哪些开源基线模型进行了对比分析",
+    "chunkName": "Qwen3_Technical_Report-part-10",
+    "questionLabel": ""
+  },
+  {
+    "question": "根据评估结果，Qwen3-235B-A22B-Base在大多数基准测试中的得分表现如何？",
+    "chunkName": "Qwen3_Technical_Report-part-10",
+    "questionLabel": ""
+  },
+  {
+    "question": "Qwen3系列基础模型的综合评估主要关注哪些方面的性能？",
+    "chunkName": "Qwen3_Technical_Report-part-9",
+    "questionLabel": ""
+  },
+  {
+    "question": "用于预训练基础模型评估的数据集包含多少个基准测试？",
+    "chunkName": "Qwen3_Technical_Report-part-9",
+    "questionLabel": ""
+  },
+  {
+    "question": "在通用任务评估中，MMLU-Pro基准测试采用了什么样的提示设置",
+    "chunkName": "Qwen3_Technical_Report-part-9",
+    "questionLabel": ""
+  },
+  {
+    "question": "数学与STEM任务评估涵盖了哪几个具体的基准测试数据集",
+    "chunkName": "Qwen3_Technical_Report-part-9",
+    "questionLabel": ""
+  },
+  {
+    "question": "代码任务评估中的EvalPlus基准测试具体包含了哪些子数据集的平均值？",
+    "chunkName": "Qwen3_Technical_Report-part-9",
+    "questionLabel": ""
+  },
+  {
+    "question": "MultiPL-E基准测试支持哪些编程语言的代码能力评估？",
+    "chunkName": "Qwen3_Technical_Report-part-9",
+    "questionLabel": ""
+  },
+  {
+    "question": "多语言任务评估使用了哪三个主要的基准测试数据集？",
+    "chunkName": "Qwen3_Technical_Report-part-9",
+    "questionLabel": ""
+  },
+  {
+    "question": "为了进行公平比较，Qwen3基础模型与哪些开源基线模型进行了对比",
+    "chunkName": "Qwen3_Technical_Report-part-9",
+    "questionLabel": ""
+  },
+  {
+    "question": "MGSM基准测试在多语言任务评估中采用了多少样本的提示方式",
+    "chunkName": "Qwen3_Technical_Report-part-9",
+    "questionLabel": ""
+  },
+  {
+    "question": "在扩展预训练语料库时，如何利用Qwen2.5-VL和Qwen2.5模型对PDF类文档进行处理以获取高质量文本",
+    "chunkName": "Qwen3_Technical_Report-part-7",
+    "questionLabel": ""
+  },
+  {
+    "question": "哪些特定的Qwen系列模型被用于合成涵盖教科书、问答、指令和代码等不同格式的文本数据",
+    "chunkName": "Qwen3_Technical_Report-part-7",
+    "questionLabel": ""
+  },
+  {
+    "question": "与Qwen2.5相比，当前模型的预训练数据在多语言支持方面有哪些显著变化",
+    "chunkName": "Qwen3_Technical_Report-part-7",
+    "questionLabel": ""
+  },
+  {
+    "question": "多语言数据标注系统主要在哪些维度上对超过30万亿个token进行标注？",
+    "chunkName": "Qwen3_Technical_Report-part-7",
+    "questionLabel": ""
+  },
+  {
+    "question": "该研究提出的数据混合优化方法与传统基于数据源或领域级别的优化有何不同",
+    "chunkName": "Qwen3_Technical_Report-part-7",
+    "questionLabel": ""
+  },
+  {
+    "question": "通过实例级数据混合优化所依赖的细粒度数据标签是如何获得的",
+    "chunkName": "Qwen3_Technical_Report-part-7",
+    "questionLabel": ""
+  },
+  {
+    "question": "使用小代理模型进行大量消融实验的目的是什么？",
+    "chunkName": "Qwen3_Technical_Report-part-7",
+    "questionLabel": ""
+  },
+  {
+    "question": "引入更多语言和多语言数据旨在增强模型的哪些具体能力",
+    "chunkName": "Qwen3_Technical_Report-part-7",
+    "questionLabel": ""
+  },
+  {
+    "question": "Qwen3模型在第一阶段通用预训练中使用了多少Token数据，且训练数据的语言覆盖范围如何？",
+    "chunkName": "Qwen3_Technical_Report-part-8",
+    "questionLabel": ""
+  },
+  {
+    "question": "为了提升推理能力，Qwen3在第二阶段预训练中对语料库进行了哪些特定领域的优化？",
+    "chunkName": "Qwen3_Technical_Report-part-8",
+    "questionLabel": ""
+  },
+  {
+    "question": "Qwen3第三阶段长上下文预训练的目标序列长度是多少，该阶段使用的Token数量级为何？",
+    "chunkName": "Qwen3_Technical_Report-part-8",
+    "questionLabel": ""
+  },
+  {
+    "question": "在长上下文语料库的构成中，不同长度区间的文本比例分别是多少",
+    "chunkName": "Qwen3_Technical_Report-part-8",
+    "questionLabel": ""
+  },
+  {
+    "question": "Qwen3采用什么技术将RoPE的基础频率从10,000增加到了1,000,000？",
+    "chunkName": "Qwen3_Technical_Report-part-8",
+    "questionLabel": ""
+  },
+  {
+    "question": "除了ABF技术外，Qwen3还引入了哪些机制以实现推理时序列长度容量的四倍增长",
+    "chunkName": "Qwen3_Technical_Report-part-8",
+    "questionLabel": ""
+  },
+  {
+    "question": "Qwen3基于哪三个预训练阶段开发了用于预测最优超参数的缩放定律",
+    "chunkName": "Qwen3_Technical_Report-part-8",
+    "questionLabel": ""
+  },
+  {
+    "question": "通过系统性实验，研究人员确定了每个稠密或MoE模型的哪些关键训练策略？",
+    "chunkName": "Qwen3_Technical_Report-part-8",
+    "questionLabel": ""
+  },
+  {
+    "question": "Qwen3 MoE模型在专家激活机制上与Qwen2.5-MoE有何主要区别",
+    "chunkName": "Qwen3_Technical_Report-part-6",
+    "questionLabel": ""
+  },
+  {
+    "question": "为了促进专家专业化，Qwen3采用了哪种特定的损失函数？",
+    "chunkName": "Qwen3_Technical_Report-part-6",
+    "questionLabel": ""
+  },
+  {
+    "question": "Qwen3使用的分词器实现了哪种编码技术，其词汇表大小是多少？",
+    "chunkName": "Qwen3_Technical_Report-part-6",
+    "questionLabel": ""
+  },
+  {
+    "question": "根据表格信息，Qwen3-4B和Qwen3-8B在上下文长度设置上有何不同？",
+    "chunkName": "Qwen3_Technical_Report-part-6",
+    "questionLabel": ""
+  },
+  {
+    "question": "Qwen3 Dense系列模型中，哪些尺寸模型的嵌入层权重是共享的（Tie Embedding为Yes）？",
+    "chunkName": "Qwen3_Technical_Report-part-6",
+    "questionLabel": ""
+  },
+  {
+    "question": "Qwen3-235B-A22B MoE模型的总专家数量和每个Token激活的专家数量分别是多少？",
+    "chunkName": "Qwen3_Technical_Report-part-6",
+    "questionLabel": ""
+  },
+  {
+    "question": "相比Qwen2.5，Qwen3预训练数据在规模和多语言覆盖范围上有哪些具体提升？",
+    "chunkName": "Qwen3_Technical_Report-part-6",
+    "questionLabel": ""
+  },
+  {
+    "question": "Qwen3模型预训练所涵盖的语言和方言总数是多少，且使用了多少Token进行训练？",
+    "chunkName": "Qwen3_Technical_Report-part-6",
+    "questionLabel": ""
+  },
+  {
+    "question": "Qwen3模型在参数规模和每token激活参数方面具有哪些具体数值特征？",
+    "chunkName": "Qwen3_Technical_Report-part-3",
+    "questionLabel": ""
+  },
+  {
+    "question": "Qwen3如何通过集成两种不同的运行模式来增强其灵活性和用户体验？",
+    "chunkName": "Qwen3_Technical_Report-part-3",
+    "questionLabel": ""
+  },
+  {
+    "question": "思维预算功能为Qwen3的用户提供了怎样的控制能力，这对计算资源优化有何意义",
+    "chunkName": "Qwen3_Technical_Report-part-3",
+    "questionLabel": ""
+  },
+  {
+    "question": "Qwen3在多语言支持方面的预训练数据规模及覆盖范围是多少？",
+    "chunkName": "Qwen3_Technical_Report-part-3",
+    "questionLabel": ""
+  },
+  {
+    "question": "为了高效扩展训练数据，Qwen3的预训练过程中采用了哪种多模态方法来提取PDF文档中的文本",
+    "chunkName": "Qwen3_Technical_Report-part-3",
+    "questionLabel": ""
+  },
+  {
+    "question": "在生成合成数据以补充预训练语料时，Qwen3分别使用了哪些特定领域的模型来处理数学内容和代码数据？",
+    "chunkName": "Qwen3_Technical_Report-part-3",
+    "questionLabel": ""
+  },
+  {
+    "question": "Qwen3将思考模式与非思考模式整合到单一模型中，相较于传统需要切换不同模型的做法有什么优势？",
+    "chunkName": "Qwen3_Technical_Report-part-3",
+    "questionLabel": ""
+  },
+  {
+    "question": "广泛的语言和方言覆盖如何提升了Qwen3在全球应用场景和国际部署中的潜力？",
+    "chunkName": "Qwen3_Technical_Report-part-3",
+    "questionLabel": ""
+  },
+  {
+    "question": "该模型的预训练过程分为哪三个阶段",
+    "chunkName": "Qwen3_Technical_Report-part-4",
+    "questionLabel": ""
+  },
+  {
+    "question": "在预训练的第一阶段，模型使用了多少数据量来构建通用知识基础？",
+    "chunkName": "Qwen3_Technical_Report-part-4",
+    "questionLabel": ""
+  },
+  {
+    "question": "预训练的第二阶段旨在增强模型在哪些领域的推理能力？",
+    "chunkName": "Qwen3_Technical_Report-part-4",
+    "questionLabel": ""
+  },
+  {
+    "question": "通过第三阶段的长上下文数据训练，模型的最大上下文长度从多少增加到了多少？",
+    "chunkName": "Qwen3_Technical_Report-part-4",
+    "questionLabel": ""
+  },
+  {
+    "question": "后训练方法如何支持模型的思考模式和非思考模式",
+    "chunkName": "Qwen3_Technical_Report-part-4",
+    "questionLabel": ""
+  },
+  {
+    "question": "在后训练的前两个阶段，主要采用了哪些技术来发展强大的推理能力",
+    "chunkName": "Qwen3_Technical_Report-part-4",
+    "questionLabel": ""
+  },
+  {
+    "question": "对于较小的模型，采用了什么方法来利用大型模型的知识以提升其性能",
+    "chunkName": "Qwen3_Technical_Report-part-4",
+    "questionLabel": ""
+  },
+  {
+    "question": "实验结果表明，从高级教师模型进行蒸馏在性能和训练效率上与强化学习相比有何优势？",
+    "chunkName": "Qwen3_Technical_Report-part-4",
+    "questionLabel": ""
+  },
+  {
+    "question": "经过后训练的模型在何种模式下能与领先的专有模型和大混合专家模型相竞争",
+    "chunkName": "Qwen3_Technical_Report-part-4",
+    "questionLabel": ""
+  },
+  {
+    "question": "评估基准涵盖了哪些类型的任务和领域以验证模型性能",
+    "chunkName": "Qwen3_Technical_Report-part-4",
+    "questionLabel": ""
+  },
+  {
+    "question": "Qwen3系列中包含了哪些具体的稠密模型（dense models）？",
+    "chunkName": "Qwen3_Technical_Report-part-5",
+    "questionLabel": ""
+  },
+  {
+    "question": "旗舰模型Qwen3-235B-A22B在AIME'24和AIME'25测试中分别取得了多少分",
+    "chunkName": "Qwen3_Technical_Report-part-5",
+    "questionLabel": ""
+  },
+  {
+    "question": "观察发现，增加思考token的预算对模型性能有何影响",
+    "chunkName": "Qwen3_Technical_Report-part-5",
+    "questionLabel": ""
+  },
+  {
+    "question": "Qwen3-235B-A22B模型的总参数量和激活参数量分别是多少",
+    "chunkName": "Qwen3_Technical_Report-part-5",
+    "questionLabel": ""
+  },
+  {
+    "question": "Qwen3稠密模型的架构与哪个先前版本的模型相似？",
+    "chunkName": "Qwen3_Technical_Report-part-5",
+    "questionLabel": ""
+  },
+  {
+    "question": "为了确保训练稳定性，Qwen3在注意力机制中引入了什么新组件并移除了什么旧组件",
+    "chunkName": "Qwen3_Technical_Report-part-5",
+    "questionLabel": ""
+  },
+  {
+    "question": "除稠密模型外，Qwen3系列还包含哪两个混合专家（MoE）模型",
+    "chunkName": "Qwen3_Technical_Report-part-5",
+    "questionLabel": ""
+  },
+  {
+    "question": "Qwen3稠密模型采用了哪些关键技术组件，如GQA、SwiGLU等",
+    "chunkName": "Qwen3_Technical_Report-part-5",
+    "questionLabel": ""
+  },
+  {
+    "question": "Qwen3系列模型在开源协议方面遵循什么标准？",
+    "chunkName": "Qwen3_Technical_Report-part-2",
+    "questionLabel": ""
+  },
+  {
+    "question": "文中列举了哪些近期取得显著进展的大型基础模型以展示向通用人工智能迈进的趋势？",
+    "chunkName": "Qwen3_Technical_Report-part-2",
+    "questionLabel": ""
+  },
+  {
+    "question": "这些大型基础模型是通过何种方式将人类知识和能力蒸馏到其参数中的",
+    "chunkName": "Qwen3_Technical_Report-part-2",
+    "questionLabel": ""
+  },
+  {
+    "question": "强化学习优化的推理模型如何提升基础模型的智能水平",
+    "chunkName": "Qwen3_Technical_Report-part-2",
+    "questionLabel": ""
+  },
+  {
+    "question": "开源社区的快速发展对开源权重模型与闭源模型之间的性能差距产生了什么影响",
+    "chunkName": "Qwen3_Technical_Report-part-2",
+    "questionLabel": ""
+  },
+  {
+    "question": "Qwen3系列模型主要包含哪两种架构类型的模型？",
+    "chunkName": "Qwen3_Technical_Report-part-2",
+    "questionLabel": ""
+  },
+  {
+    "question": "Qwen3系列模型的参数量范围是多少",
+    "chunkName": "Qwen3_Technical_Report-part-2",
+    "questionLabel": ""
+  },
+  {
+    "question": "作为旗舰模型，Qwen3-235B-A22B采用了哪种特定的模型架构",
+    "chunkName": "Qwen3_Technical_Report-part-2",
+    "questionLabel": ""
+  },
+  {
+    "question": "Qwen3模型系列包含哪两种主要的架构类型",
+    "chunkName": "Qwen3_Technical_Report-part-1",
+    "questionLabel": ""
+  },
+  {
+    "question": "Qwen3模型的参数规模范围是多少",
+    "chunkName": "Qwen3_Technical_Report-part-1",
+    "questionLabel": ""
+  },
+  {
+    "question": "Qwen3的关键创新之一是将哪两种模式整合到了统一框架中",
+    "chunkName": "Qwen3_Technical_Report-part-1",
+    "questionLabel": ""
+  },
+  {
+    "question": "思考模式和非思考模式分别适用于什么样的任务场景",
+    "chunkName": "Qwen3_Technical_Report-part-1",
+    "questionLabel": ""
+  },
+  {
+    "question": "Qwen3引入的思考预算机制允许用户做什么？",
+    "chunkName": "Qwen3_Technical_Report-part-1",
+    "questionLabel": ""
+  },
+  {
+    "question": "Qwen3如何利用旗舰模型的知识来优化小规模模型的构建过程",
+    "chunkName": "Qwen3_Technical_Report-part-1",
+    "questionLabel": ""
+  },
+  {
+    "question": "与前一版本Qwen2.5相比，Qwen3在多语言支持方面有哪些具体提升",
+    "chunkName": "Qwen3_Technical_Report-part-1",
+    "questionLabel": ""
+  },
+  {
+    "question": "实证评估显示Qwen3在哪些类型的基准测试中取得了最先进的结果？",
+    "chunkName": "Qwen3_Technical_Report-part-1",
+    "questionLabel": ""
+  }
+]
