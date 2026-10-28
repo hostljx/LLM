@@ -13,7 +13,7 @@ from langchain_openai import ChatOpenAI
 
 client = OpenAI(
     # 如果没有配置环境变量，请用阿里云百炼API Key替换：api_key="sk-xxx"
-    api_key="sk-ws-H.PXXRYMP.qjID.MEYCIQCKfReT1gEDfo4unSaGqbmvN2-TLLP-0pIsu6A_hcTUqwIhAIESDDiS-h5s1BV599tHVAPcuOHlyvALZHWgAS88_-h4",
+    api_key="sk-ws-H.YHLYEMH.Ty0z.MEQCICEHcNQatDrpzRTxcH1GdQQ694goJglv7h-ElnSNgX-aAiAlQv9Xi9_Q5ANih60eCDYY4oH0KDx5SGN372fTDOPj0w",
     base_url="https://cn-beijing.maas.qianwenaiapi.com/compatible-mode/v1",
 )
 
