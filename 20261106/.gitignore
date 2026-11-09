@@ -1,0 +1,6 @@
+.env
+__pycache__/
+*.pyc
+
+# 305MB 的数据 dump，不要提交进 git
+employees.sql
