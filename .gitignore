@@ -7,6 +7,7 @@
 
 # 数据
 milvus/
+chroma_db/
 项目/
 checkpoints/
 datasets/

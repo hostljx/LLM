@@ -58,7 +58,11 @@ from langchain_ollama import OllamaEmbeddings
 
 #加载嵌入模型，将文档转换为向量
 
-embedding_model = OllamaEmbeddings(model="qwen3-embedding:0.6b",base_url="http://127.0.0.1:11434")
+embedding_model = OllamaEmbeddings(
+    model="bge-m3",
+    base_url="http://127.0.0.1:11434",
+    client_kwargs={"trust_env": False},
+)
 
 #加载pdf文件
 loader = PyMuPDFLoader(file_path=r"D:\PythonProjectAll\ZSXC-AI\Linux.pdf")
