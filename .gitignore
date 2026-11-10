@@ -6,6 +6,7 @@
 # LLM/
 
 # 数据
+milvus/
 项目/
 checkpoints/
 datasets/
