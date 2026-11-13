@@ -17,7 +17,7 @@ medical-o1-reasoning-SFT/
 videos/
 PDF/
 model/
-# models/
+models/
 课件/
 nlpcc_2017/
 *.xlsx
