@@ -110,7 +110,6 @@ def run_rag_agent(question: str) -> str:
         messages.append(
             ToolMessage(content=str(tool_result), tool_call_id=tool_call["id"])
         )
-
     # 再次调用模型，让它综合检索到的资料，生成最终回答
     final_msg = llm_with_tools.invoke(messages)
     return final_msg.content

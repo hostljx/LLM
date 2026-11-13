@@ -7,6 +7,7 @@
 
 # 数据
 milvus/
+minerU/
 chroma_db/
 项目/
 checkpoints/
