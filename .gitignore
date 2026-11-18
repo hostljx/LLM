@@ -6,9 +6,11 @@
 # LLM/
 
 # 数据
+redis-bin/
 milvus/
 minerU/
 chroma_db/
+方案/
 项目/
 checkpoints/
 datasets/

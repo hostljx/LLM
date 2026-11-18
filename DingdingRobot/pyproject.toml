@@ -1,0 +1,25 @@
+[project]
+name = "dingdingrobot"
+version = "0.1.0"
+description = "钉钉 Stream 机器人：Redis 队列 + LLM 工具调用"
+readme = "README.md"
+authors = [
+    { name = "Huang Haina", email = "107471839+hostljx@users.noreply.github.com" }
+]
+requires-python = ">=3.13"
+dependencies = [
+    "dingtalk-stream>=0.24.3",
+    "httpx>=0.28.1",
+    "openai>=3.51.0",
+    "pydantic>=2.14.3",
+    "python-dotenv>=1.2.4",
+    "redis>=8.1.0",
+    "tzdata>=2026.6",
+]
+
+[project.scripts]
+dingdingrobot = "dingdingrobot.main:main"
+
+[build-system]
+requires = ["uv_build>=0.13.7,<0.14.0"]
+build-backend = "uv_build"

@@ -1,6 +1,6 @@
 @echo off
 chcp 65001 >nul
-cd /d "%~dp0redis-bin\Redis-8.10.3-Windows-x64-msys2"
+cd /d "%~dp0..\redis-bin\Redis-8.10.3-Windows-x64-msys2"
 
 redis-cli.exe ping >nul 2>&1
 if errorlevel 1 (

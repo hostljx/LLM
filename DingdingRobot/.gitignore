@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.pytest_cache/
+
+# 虚拟环境
+.venv/
+
+# 本地配置（含 AppKey / AppSecret，不要提交）
+.env
+
+# Redis 数据
+data/
+
+# 编辑器
+.idea/
+.vscode/

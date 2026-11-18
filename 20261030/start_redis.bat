@@ -1,7 +1,7 @@
 @echo off
 chcp 65001 >nul
 title Redis 8.10.3  (127.0.0.1:6379)
-cd /d "%~dp0redis-bin\Redis-8.10.3-Windows-x64-msys2"
+cd /d "%~dp0..\redis-bin\Redis-8.10.3-Windows-x64-msys2"
 
 echo.
 echo   Redis 启动中，监听 127.0.0.1:6379

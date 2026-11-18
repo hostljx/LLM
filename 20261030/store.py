@@ -44,7 +44,7 @@ def connect():
             "先启动 Redis，二选一：\n"
             "  1) 双击 D:\\PythonProjectAll\\LLM\\20261030\\start_redis.bat\n"
             "  2) 命令行：\n"
-            "     cd D:\\PythonProjectAll\\LLM\\20261030\\redis-bin\\Redis-8.10.3-Windows-x64-msys2\n"
+            "     cd D:\\PythonProjectAll\\LLM\\redis-bin\\Redis-8.10.3-Windows-x64-msys2\n"
             "     redis-server.exe redis.conf\n"
         )
 
