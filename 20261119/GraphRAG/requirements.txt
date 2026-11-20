@@ -1,0 +1,6 @@
+openai>=1.40.0          # DeepSeek 使用 OpenAI 兼容协议，直接复用官方 SDK
+neo4j>=5.20.0           # Neo4j 官方 Python 驱动（Bolt 协议）
+python-dotenv>=1.0.0    # 从 .env 文件加载密钥等环境变量
+pyvis>=0.3.2            # 将图谱导出为可交互的 HTML 可视化页面
+networkx>=3.0           # 社区检测降级方案：Neo4j 未装 GDS 插件时用 Louvain
+sentence-transformers>=3.0   # 本地 embedding（bge-small-zh-v1.5），实体链接的向量语义层

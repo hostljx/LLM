@@ -1,0 +1,45 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="PyPackageRequirementsInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredPackages">
+        <list>
+          <option value="datasets" />
+          <option value="datasketch" />
+          <option value="Flask" />
+          <option value="Flask_Cors" />
+          <option value="jieba" />
+          <option value="jsonlines" />
+          <option value="marshmallow" />
+          <option value="ngrok" />
+          <option value="nltk" />
+          <option value="numpy" />
+          <option value="openai" />
+          <option value="psutil" />
+          <option value="pydantic" />
+          <option value="rich" />
+          <option value="scikit_learn" />
+          <option value="sentence_transformers" />
+          <option value="simhash" />
+          <option value="tiktoken" />
+          <option value="transformers" />
+          <option value="jinja2" />
+          <option value="trl" />
+          <option value="ujson" />
+          <option value="wandb" />
+          <option value="streamlit" />
+          <option value="einops" />
+          <option value="swanlab" />
+          <option value="modelscope" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyStubPackagesAdvertiser" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredPackages">
+        <list>
+          <option value="pandas" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>
